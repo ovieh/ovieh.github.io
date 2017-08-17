@@ -29,5 +29,14 @@ First Weeks Homework My first project was to recrate a Personal Portfolio site f
       <description> This is dummy text </description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://ovieh.github.io/page/about/</link>
+      <pubDate>Fri, 04 Aug 2017 23:05:06 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/page/about/</guid>
+      <description>I am Full Stack Developer located in the Borough of Kings, Brooklyn, New York. I am an avid brewer, photographer and martial artist.</description>
+    </item>
+    
   </channel>
 </rss>
