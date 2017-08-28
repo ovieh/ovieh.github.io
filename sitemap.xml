@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ovieh.github.io/post/week2-2/</loc>
+    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ovieh.github.io/post/week-two/</loc>
     <lastmod>2017-08-21T17:30:30-04:00</lastmod>
   </url>
@@ -24,11 +29,29 @@
   
   <url>
     <loc>https://ovieh.github.io/</loc>
-    <lastmod>2017-08-21T17:30:30-04:00</lastmod>
+    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.github.io/tags/bootstrap/</loc>
+    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ovieh.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.github.io/tags/css/</loc>
+    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.github.io/tags/html/</loc>
+    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,7 +69,7 @@
   
   <url>
     <loc>https://ovieh.github.io/post/</loc>
-    <lastmod>2017-08-21T17:30:30-04:00</lastmod>
+    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,7 +81,7 @@
   
   <url>
     <loc>https://ovieh.github.io/tags/</loc>
-    <lastmod>2017-08-07T16:11:39-04:00</lastmod>
+    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -5,10 +5,19 @@
     <link>https://ovieh.github.io/post/</link>
     <description>Recent content in Posts on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Aug 2017 17:30:30 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 26 Aug 2017 09:40:33 -0400</lastBuildDate>
     
 	<atom:link href="https://ovieh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week Two, Part 2</title>
+      <link>https://ovieh.github.io/post/week2-2/</link>
+      <pubDate>Sat, 26 Aug 2017 09:40:33 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/post/week2-2/</guid>
+      <description>I submitted my homework. I am not thrilled with my work. I spent many hours trying hacking away at the Bootstrap-Portfolio trying to format it to spec. My biggest isssue is that the breakpoints in our spec are not the same as the breakpoints that Bootstrap 4 uses. The easiest way to have fixed this would have been to customized my own downloaded version of Bootstrap by using Sass, which is something that seemed overly complicated at the time.</description>
+    </item>
     
     <item>
       <title>Week Two</title>
