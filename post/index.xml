@@ -5,10 +5,19 @@
     <link>https://ovieh.github.io/post/</link>
     <description>Recent content in Posts on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Aug 2017 09:40:33 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 02 Sep 2017 16:58:20 -0400</lastBuildDate>
     
 	<atom:link href="https://ovieh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week Three</title>
+      <link>https://ovieh.github.io/post/week-three/</link>
+      <pubDate>Sat, 02 Sep 2017 16:58:20 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/post/week-three/</guid>
+      <description>This week was spent getting acquainted with Javascript. Which is a scripting language that adds functionality to websites. It can be used to manipulate the page itself, such as adding elements, text, images. It can also be used to to do nitty-gritty things, like math. I do have a good amount of experience with programming languages, but it has been a while since I have had to think programmatically. Everyone programming language as its own quirks.</description>
+    </item>
     
     <item>
       <title>Week Two, Part 2</title>
