@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ovieh.github.io/post/week-four/</loc>
+    <lastmod>2017-09-09T09:55:17-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ovieh.github.io/post/week-three/</loc>
     <lastmod>2017-09-02T16:58:20-04:00</lastmod>
   </url>
@@ -34,7 +39,7 @@
   
   <url>
     <loc>https://ovieh.github.io/</loc>
-    <lastmod>2017-09-02T16:58:20-04:00</lastmod>
+    <lastmod>2017-09-09T09:55:17-04:00</lastmod>
   </url>
   
   <url>
@@ -62,7 +67,13 @@
   
   <url>
     <loc>https://ovieh.github.io/tags/javascript/</loc>
-    <lastmod>2017-09-02T16:58:20-04:00</lastmod>
+    <lastmod>2017-09-09T09:55:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.github.io/tags/jquery/</loc>
+    <lastmod>2017-09-09T09:55:17-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -80,7 +91,7 @@
   
   <url>
     <loc>https://ovieh.github.io/post/</loc>
-    <lastmod>2017-09-02T16:58:20-04:00</lastmod>
+    <lastmod>2017-09-09T09:55:17-04:00</lastmod>
     <priority>0</priority>
   </url>
   
