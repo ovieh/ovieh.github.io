@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jquery on Ovieh Mosley</title>
+    <link>https://ovieh.github.io/tags/jquery/</link>
+    <description>Recent content in Jquery on Ovieh Mosley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Sep 2017 09:55:17 -0400</lastBuildDate>
+    
+	<atom:link href="https://ovieh.github.io/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week Four</title>
+      <link>https://ovieh.github.io/post/week-four/</link>
+      <pubDate>Sat, 09 Sep 2017 09:55:17 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/post/week-four/</guid>
+      <description>This was probably my favorite week yet. Some of the concepts are starting to stick, my ability to think programmatically is improving. We went into Javascript and jQuery a little more in depth. The concept of scope was covered extensively. My prior experience helped out immensely.
+And to get into my prior experience. My first formal introduction into programming while we had a Clinton in the White House. Things were rosy.</description>
+    </item>
+    
+  </channel>
+</rss>
