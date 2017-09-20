@@ -1,2 +1,0 @@
-### Why This Site Exists
-I am an aspiring Full Stack Web Developer. I am passionate about problem solving, developing solitions, and learning. I will be learning the ME(R)N Stack and trying to come up with novel ways of breaking things.
