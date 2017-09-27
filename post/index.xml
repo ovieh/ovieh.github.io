@@ -5,10 +5,19 @@
     <link>https://ovieh.github.io/post/</link>
     <description>Recent content in Posts on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Sep 2017 16:22:24 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 Sep 2017 15:29:58 -0400</lastBuildDate>
     
 	<atom:link href="https://ovieh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 6</title>
+      <link>https://ovieh.github.io/post/week-six/</link>
+      <pubDate>Wed, 27 Sep 2017 15:29:58 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/post/week-six/</guid>
+      <description>This week we learned ways of accessing tools and data not of our creation through APIs, or Application Programming Interfaces. This is a pretty important step in our learning progression, since no man is an island, it is fundamental to learn to leverage the work of others. I think the most important lesson I learned this week was importance of reading documentation. When I think about it, I have always enjoyed reading instructions.</description>
+    </item>
     
     <item>
       <title>Week Five</title>

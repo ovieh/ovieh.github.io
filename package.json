@@ -1,0 +1,27 @@
+{
+  "name": "ovieh.com",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovieh/ovieh.github.io.git"
+  },
+  "keywords": [
+    "personal"
+  ],
+  "author": "Ovieh Mosley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovieh/ovieh.github.io/issues"
+  },
+  "homepage": "https://github.com/ovieh/ovieh.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
+  }
+}
