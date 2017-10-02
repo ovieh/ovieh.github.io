@@ -5,13 +5,22 @@
     <link>https://ovieh.github.io/</link>
     <description>Recent content on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 27 Sep 2017 15:29:58 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 02 Oct 2017 18:07:57 -0400</lastBuildDate>
     
 	<atom:link href="https://ovieh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Week 6</title>
+      <title>Week Seven</title>
+      <link>https://ovieh.github.io/post/week-seven/</link>
+      <pubDate>Mon, 02 Oct 2017 18:07:57 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/post/week-seven/</guid>
+      <description>Until now our programs only cared about the now, they only lived in the moment. This week we learned ways of giving our software something that dogs do not have, object permanence. We covered three ways of storing data with Javascript just using what’s in the browser; HTML5 Web Storage as well touching on Cookies. On the third day we covered the use of a Google product, Firebase. The database feature from Firebase includes a couple of really useful features, namely, in our use at least, a method that listens to changes in the database and call a function.</description>
+    </item>
+    
+    <item>
+      <title>Week Six</title>
       <link>https://ovieh.github.io/post/week-six/</link>
       <pubDate>Wed, 27 Sep 2017 15:29:58 -0400</pubDate>
       
