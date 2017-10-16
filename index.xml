@@ -5,10 +5,28 @@
     <link>https://ovieh.github.io/</link>
     <description>Recent content on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 Oct 2017 18:07:57 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 21:17:05 -0400</lastBuildDate>
     
 	<atom:link href="https://ovieh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Weeks Eight &amp; Nine</title>
+      <link>https://ovieh.github.io/post/week8and9/</link>
+      <pubDate>Sun, 15 Oct 2017 21:17:05 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/post/week8and9/</guid>
+      <description>The last couple of weeks were spent working on our first group project. It was quite the learning experience. The first obstacle was to figure out what exactly we should do for a project. I first suggested a music based food recommendation app. That really did not go anywhere. It’s not a terrible idea. We eventually landed on an app that would give you movie recommendations based on your facial expression.</description>
+    </item>
+    
+    <item>
+      <title>Quotation</title>
+      <link>https://ovieh.github.io/post/quotation/</link>
+      <pubDate>Wed, 04 Oct 2017 16:11:20 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/post/quotation/</guid>
+      <description>I use Hugo to generate html for site. I have been using Google Docs to draft posts, to take advantage of spell check. What I did not realize, is that the quotation marks that are used in word processing programs and quotation marks used in html are not the same. This lead to to dead links in previous two posts. Live and learn.</description>
+    </item>
     
     <item>
       <title>Week Seven</title>
