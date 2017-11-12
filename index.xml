@@ -5,10 +5,20 @@
     <link>https://ovieh.github.io/</link>
     <description>Recent content on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Nov 2017 16:02:48 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 11 Nov 2017 21:47:12 -0500</lastBuildDate>
     
 	<atom:link href="https://ovieh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week Twelve</title>
+      <link>https://ovieh.github.io/post/week-twelve/</link>
+      <pubDate>Sat, 11 Nov 2017 21:47:12 -0500</pubDate>
+      
+      <guid>https://ovieh.github.io/post/week-twelve/</guid>
+      <description>This last week I became reaquainted with MySQL. It’s not so bad. The syntax is relatively straightforward. The keywords are close to to natural language. This was another week getting familiar with the power of Node.js. It is really easy to integrate some really powerful tools.
+Our assignment this week was to create backend for store using MySQL running on Node.js.Working with MySQL was pretty straightforward, updating, selecting from, and inserting into the database.</description>
+    </item>
     
     <item>
       <title>Week Eleven</title>
@@ -119,15 +129,6 @@ And to get into my prior experience. My first formal introduction into programmi
       <guid>https://ovieh.github.io/post/week-one/</guid>
       <description>I am really excited to start a new chapter in my life and puruse something that I am passionate about. It has been a real treat to face challenges and overcome them. Over the next 23 weeks I will transform myself into a Full Stack Developer.
 First Weeks Homework My first project was to recrate a Personal Portfolio site from spec. It was a real drag getting all the content to align, utilizing floats and then clearing the floats.</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://ovieh.github.io/page/portfolio/</link>
-      <pubDate>Mon, 07 Aug 2017 16:11:39 -0400</pubDate>
-      
-      <guid>https://ovieh.github.io/page/portfolio/</guid>
-      <description> This is dummy text </description>
     </item>
     
     <item>

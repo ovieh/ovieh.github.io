@@ -58,7 +58,7 @@
     <item>
       <title>Javascript</title>
       <link>https://ovieh.github.io/tags/javascript/</link>
-      <pubDate>Wed, 01 Nov 2017 16:02:48 -0400</pubDate>
+      <pubDate>Sat, 11 Nov 2017 21:47:12 -0500</pubDate>
       
       <guid>https://ovieh.github.io/tags/javascript/</guid>
       <description></description>
@@ -83,9 +83,18 @@
     </item>
     
     <item>
+      <title>Mysql</title>
+      <link>https://ovieh.github.io/tags/mysql/</link>
+      <pubDate>Sat, 11 Nov 2017 21:47:12 -0500</pubDate>
+      
+      <guid>https://ovieh.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Node.js</title>
       <link>https://ovieh.github.io/tags/node.js/</link>
-      <pubDate>Wed, 01 Nov 2017 16:02:48 -0400</pubDate>
+      <pubDate>Sat, 11 Nov 2017 21:47:12 -0500</pubDate>
       
       <guid>https://ovieh.github.io/tags/node.js/</guid>
       <description></description>
@@ -97,24 +106,6 @@
       <pubDate>Mon, 23 Oct 2017 13:44:54 -0400</pubDate>
       
       <guid>https://ovieh.github.io/tags/npm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://ovieh.github.io/tags/portfolio/</link>
-      <pubDate>Mon, 07 Aug 2017 16:11:39 -0400</pubDate>
-      
-      <guid>https://ovieh.github.io/tags/portfolio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://ovieh.github.io/tags/projects/</link>
-      <pubDate>Mon, 07 Aug 2017 16:11:39 -0400</pubDate>
-      
-      <guid>https://ovieh.github.io/tags/projects/</guid>
       <description></description>
     </item>
     
