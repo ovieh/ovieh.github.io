@@ -30,6 +30,15 @@ Our assignment this week was to create backend for store using MySQL running on 
     </item>
     
     <item>
+      <title>Projects</title>
+      <link>https://ovieh.github.io/page/projects/</link>
+      <pubDate>Thu, 02 Nov 2017 08:46:56 -0400</pubDate>
+      
+      <guid>https://ovieh.github.io/page/projects/</guid>
+      <description>Feel to Reel  A movie recommendation app that uses an image from the user&#39;s webcam and Azure&#39;s Emotion API to deliver emotionally specific movie recommendations. Live Github     Friend Finder  This app uses Node.js and Express web frame. The user is asked to fill out a personality survey. At the completion of the survey the user is recommended a friend with similar scores. Live Github     Devour a Burger  This is Burger logger using Node.</description>
+    </item>
+    
+    <item>
       <title>Week Eleven</title>
       <link>https://ovieh.github.io/post/week-eleven/</link>
       <pubDate>Wed, 01 Nov 2017 16:02:48 -0400</pubDate>
