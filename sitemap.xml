@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ovieh.github.io/post/week-fourteen/</loc>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ovieh.github.io/post/week-thirteen/</loc>
     <lastmod>2017-11-20T13:29:51-05:00</lastmod>
   </url>
@@ -84,7 +89,7 @@
   
   <url>
     <loc>https://ovieh.github.io/</loc>
-    <lastmod>2017-11-20T13:29:51-05:00</lastmod>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
   </url>
   
   <url>
@@ -123,14 +128,20 @@
   </url>
   
   <url>
+    <loc>https://ovieh.github.io/tags/handlebars.js/</loc>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ovieh.github.io/tags/html/</loc>
-    <lastmod>2017-08-26T09:40:33-04:00</lastmod>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ovieh.github.io/tags/javascript/</loc>
-    <lastmod>2017-11-20T13:29:51-05:00</lastmod>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,19 +159,25 @@
   
   <url>
     <loc>https://ovieh.github.io/tags/mysql/</loc>
-    <lastmod>2017-11-11T21:47:12-05:00</lastmod>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ovieh.github.io/tags/node.js/</loc>
-    <lastmod>2017-11-20T13:29:51-05:00</lastmod>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ovieh.github.io/tags/npm/</loc>
     <lastmod>2017-10-23T13:44:54-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.github.io/tags/orm/</loc>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -172,7 +189,7 @@
   
   <url>
     <loc>https://ovieh.github.io/post/</loc>
-    <lastmod>2017-11-20T13:29:51-05:00</lastmod>
+    <lastmod>2017-11-26T10:20:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
