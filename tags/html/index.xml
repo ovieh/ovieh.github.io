@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on Ovieh Mosley</title>
-    <link>https://ovieh.github.io/tags/html/</link>
+    <link>https://ovieh.com/tags/html/</link>
     <description>Recent content in Html on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 03 Dec 2017 15:15:40 -0500</lastBuildDate>
     
-	<atom:link href="https://ovieh.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ovieh.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week Fifthteen</title>
-      <link>https://ovieh.github.io/post/week-fifthteen/</link>
+      <link>https://ovieh.com/post/week-fifthteen/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/post/week-fifthteen/</guid>
+      <guid>https://ovieh.com/post/week-fifthteen/</guid>
       <description>This was a short week in terms of new material, as it was running concurrently with the planning of our second group project. We build off the knowledge we gained last week in building our own ORM, and used an off the shelf model, Sequelize. I found Sequelize itself to be pretty easy to use, since it is promise based. Dealing with callbacks can get messy. Our project this week was merely to refactor last week&amp;rsquo;s project, were we created are own ORM, using Sequelize.</description>
     </item>
     
     <item>
       <title>Week Fourteen</title>
-      <link>https://ovieh.github.io/post/week-fourteen/</link>
+      <link>https://ovieh.com/post/week-fourteen/</link>
       <pubDate>Sun, 26 Nov 2017 10:20:22 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/post/week-fourteen/</guid>
+      <guid>https://ovieh.com/post/week-fourteen/</guid>
       <description>This week we dove deeper into Express and covered Handlebars.js, a html templating engine. HTML templating provides a bridge between our JavaScript and our content, allowing us to decouple our HTML structure of the data within. Handlebars provides pretty easy to understand syntax and even allows block expression. As an example, let say I had list of burgers I want to iterate through and add each burger as a list item, it would look like this:</description>
     </item>
     
     <item>
       <title>Week Two, Part 2</title>
-      <link>https://ovieh.github.io/post/week2-2/</link>
+      <link>https://ovieh.com/post/week2-2/</link>
       <pubDate>Sat, 26 Aug 2017 09:40:33 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/post/week2-2/</guid>
+      <guid>https://ovieh.com/post/week2-2/</guid>
       <description>I submitted my homework. I am not thrilled with my work. I spent many hours trying hacking away at the Bootstrap-Portfolio trying to format it to spec. My biggest isssue is that the breakpoints in our spec are not the same as the breakpoints that Bootstrap 4 uses. The easiest way to have fixed this would have been to customized my own downloaded version of Bootstrap by using Sass, which is something that seemed overly complicated at the time.</description>
     </item>
     

@@ -2,146 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ovieh Mosley</title>
-    <link>https://ovieh.github.io/tags/</link>
+    <link>https://ovieh.com/tags/</link>
     <description>Recent content in Tags on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 15 Oct 2017 21:17:05 -0400</lastBuildDate>
     
-	<atom:link href="https://ovieh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ovieh.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Azure</title>
-      <link>https://ovieh.github.io/tags/azure/</link>
+      <link>https://ovieh.com/tags/azure/</link>
       <pubDate>Sun, 15 Oct 2017 21:17:05 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/tags/azure/</guid>
+      <guid>https://ovieh.com/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bootstrap</title>
-      <link>https://ovieh.github.io/tags/bootstrap/</link>
+      <link>https://ovieh.com/tags/bootstrap/</link>
       <pubDate>Sat, 26 Aug 2017 09:40:33 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/tags/bootstrap/</guid>
+      <guid>https://ovieh.com/tags/bootstrap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Css</title>
-      <link>https://ovieh.github.io/tags/css/</link>
+      <link>https://ovieh.com/tags/css/</link>
       <pubDate>Sat, 26 Aug 2017 09:40:33 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/tags/css/</guid>
+      <guid>https://ovieh.com/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Express.js</title>
-      <link>https://ovieh.github.io/tags/express.js/</link>
+      <link>https://ovieh.com/tags/express.js/</link>
       <pubDate>Mon, 20 Nov 2017 13:29:51 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/express.js/</guid>
+      <guid>https://ovieh.com/tags/express.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase</title>
-      <link>https://ovieh.github.io/tags/firebase/</link>
+      <link>https://ovieh.com/tags/firebase/</link>
       <pubDate>Sun, 15 Oct 2017 21:17:05 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/tags/firebase/</guid>
+      <guid>https://ovieh.com/tags/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Handlebars.js</title>
-      <link>https://ovieh.github.io/tags/handlebars.js/</link>
+      <link>https://ovieh.com/tags/handlebars.js/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/handlebars.js/</guid>
+      <guid>https://ovieh.com/tags/handlebars.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>https://ovieh.github.io/tags/html/</link>
+      <link>https://ovieh.com/tags/html/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/html/</guid>
+      <guid>https://ovieh.com/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>https://ovieh.github.io/tags/javascript/</link>
+      <link>https://ovieh.com/tags/javascript/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/javascript/</guid>
+      <guid>https://ovieh.com/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jquery</title>
-      <link>https://ovieh.github.io/tags/jquery/</link>
+      <link>https://ovieh.com/tags/jquery/</link>
       <pubDate>Sat, 09 Sep 2017 09:55:17 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/tags/jquery/</guid>
+      <guid>https://ovieh.com/tags/jquery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Json</title>
-      <link>https://ovieh.github.io/tags/json/</link>
+      <link>https://ovieh.com/tags/json/</link>
       <pubDate>Sun, 15 Oct 2017 21:17:05 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/tags/json/</guid>
+      <guid>https://ovieh.com/tags/json/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mysql</title>
-      <link>https://ovieh.github.io/tags/mysql/</link>
+      <link>https://ovieh.com/tags/mysql/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/mysql/</guid>
+      <guid>https://ovieh.com/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node.js</title>
-      <link>https://ovieh.github.io/tags/node.js/</link>
+      <link>https://ovieh.com/tags/node.js/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/node.js/</guid>
+      <guid>https://ovieh.com/tags/node.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Npm</title>
-      <link>https://ovieh.github.io/tags/npm/</link>
+      <link>https://ovieh.com/tags/npm/</link>
       <pubDate>Mon, 23 Oct 2017 13:44:54 -0400</pubDate>
       
-      <guid>https://ovieh.github.io/tags/npm/</guid>
+      <guid>https://ovieh.com/tags/npm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Orm</title>
-      <link>https://ovieh.github.io/tags/orm/</link>
+      <link>https://ovieh.com/tags/orm/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/orm/</guid>
+      <guid>https://ovieh.com/tags/orm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sequelize</title>
-      <link>https://ovieh.github.io/tags/sequelize/</link>
+      <link>https://ovieh.com/tags/sequelize/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.github.io/tags/sequelize/</guid>
+      <guid>https://ovieh.com/tags/sequelize/</guid>
       <description></description>
     </item>
     
