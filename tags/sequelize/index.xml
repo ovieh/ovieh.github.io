@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sequelize on Ovieh Mosley</title>
-    <link>https://ovieh.com/tags/sequelize/</link>
+    <link>http://ovieh.com/tags/sequelize/</link>
     <description>Recent content in Sequelize on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 03 Dec 2017 15:15:40 -0500</lastBuildDate>
     
-	<atom:link href="https://ovieh.com/tags/sequelize/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ovieh.com/tags/sequelize/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week Fifthteen</title>
-      <link>https://ovieh.com/post/week-fifthteen/</link>
+      <link>http://ovieh.com/post/week-fifthteen/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>https://ovieh.com/post/week-fifthteen/</guid>
+      <guid>http://ovieh.com/post/week-fifthteen/</guid>
       <description>This was a short week in terms of new material, as it was running concurrently with the planning of our second group project. We build off the knowledge we gained last week in building our own ORM, and used an off the shelf model, Sequelize. I found Sequelize itself to be pretty easy to use, since it is promise based. Dealing with callbacks can get messy. Our project this week was merely to refactor last week&amp;rsquo;s project, were we created are own ORM, using Sequelize.</description>
     </item>
     

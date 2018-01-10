@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bootstrap on Ovieh Mosley</title>
-    <link>https://ovieh.com/tags/bootstrap/</link>
+    <link>http://ovieh.com/tags/bootstrap/</link>
     <description>Recent content in Bootstrap on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 26 Aug 2017 09:40:33 -0400</lastBuildDate>
     
-	<atom:link href="https://ovieh.com/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ovieh.com/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week Two, Part 2</title>
-      <link>https://ovieh.com/post/week2-2/</link>
+      <link>http://ovieh.com/post/week2-2/</link>
       <pubDate>Sat, 26 Aug 2017 09:40:33 -0400</pubDate>
       
-      <guid>https://ovieh.com/post/week2-2/</guid>
+      <guid>http://ovieh.com/post/week2-2/</guid>
       <description>I submitted my homework. I am not thrilled with my work. I spent many hours trying hacking away at the Bootstrap-Portfolio trying to format it to spec. My biggest isssue is that the breakpoints in our spec are not the same as the breakpoints that Bootstrap 4 uses. The easiest way to have fixed this would have been to customized my own downloaded version of Bootstrap by using Sass, which is something that seemed overly complicated at the time.</description>
     </item>
     

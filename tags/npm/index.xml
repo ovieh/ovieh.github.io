@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Npm on Ovieh Mosley</title>
-    <link>https://ovieh.com/tags/npm/</link>
+    <link>http://ovieh.com/tags/npm/</link>
     <description>Recent content in Npm on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 23 Oct 2017 13:44:54 -0400</lastBuildDate>
     
-	<atom:link href="https://ovieh.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ovieh.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week Ten</title>
-      <link>https://ovieh.com/post/week-ten/</link>
+      <link>http://ovieh.com/post/week-ten/</link>
       <pubDate>Mon, 23 Oct 2017 13:44:54 -0400</pubDate>
       
-      <guid>https://ovieh.com/post/week-ten/</guid>
+      <guid>http://ovieh.com/post/week-ten/</guid>
       <description>This has been my favorite week of learning yet. This was our introduction to Node.js, which is a JavaScript runtime engine. What that all means is that it allow us to use JavaScript outside of the browser. That opens up doors. Prior to Node.js developers had to learn a second language for the backend, such as PHP or Java. Now, no need. With just one language a developer can handle the tasks of both the front and backend of the stack.</description>
     </item>
     
