@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ovieh.com/post/week-eighteen/</loc>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ovieh.com/post/week-sixteen-seventeen/</loc>
     <lastmod>2017-12-20T16:19:34-05:00</lastmod>
   </url>
@@ -99,7 +104,7 @@
   
   <url>
     <loc>http://ovieh.com/</loc>
-    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
   </url>
   
   <url>
@@ -120,6 +125,12 @@
   </url>
   
   <url>
+    <loc>http://ovieh.com/tags/cheerio/</loc>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ovieh.com/tags/css/</loc>
     <lastmod>2017-08-26T09:40:33-04:00</lastmod>
     <priority>0</priority>
@@ -127,7 +138,7 @@
   
   <url>
     <loc>http://ovieh.com/tags/express/</loc>
-    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,7 +156,7 @@
   
   <url>
     <loc>http://ovieh.com/tags/handlebars/</loc>
-    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,6 +191,18 @@
   </url>
   
   <url>
+    <loc>http://ovieh.com/tags/mongodb/</loc>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ovieh.com/tags/mongoose/</loc>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ovieh.com/tags/mysql/</loc>
     <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
@@ -187,7 +210,7 @@
   
   <url>
     <loc>http://ovieh.com/tags/node.js/</loc>
-    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,7 +234,7 @@
   
   <url>
     <loc>http://ovieh.com/post/</loc>
-    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   

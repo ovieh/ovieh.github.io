@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mongodb on Ovieh Mosley</title>
+    <link>http://ovieh.com/tags/mongodb/</link>
+    <description>Recent content in Mongodb on Ovieh Mosley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 Jan 2018 11:57:51 -0500</lastBuildDate>
+    
+	<atom:link href="http://ovieh.com/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week Eighteen</title>
+      <link>http://ovieh.com/post/week-eighteen/</link>
+      <pubDate>Mon, 08 Jan 2018 11:57:51 -0500</pubDate>
+      
+      <guid>http://ovieh.com/post/week-eighteen/</guid>
+      <description>This week we added another tool to our toolbox, MongoDB. And unlike MySQL, it does not care what you put in to it. It just accepts the data. Which is a blessing and a curse. To remedy this, there exists a project called Mongoose. Mongoose provides a MondoDB database with an ORM, which allows for validation. Since we previously learned Firebase, it was relatively easy to pick up Mongo. We just had to learn how to implement it with Node.</description>
+    </item>
+    
+  </channel>
+</rss>
