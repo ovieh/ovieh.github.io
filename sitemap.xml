@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ovieh.com/post/week-sixteen-seventeen/</loc>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ovieh.com/post/week-fifthteen/</loc>
     <lastmod>2017-12-03T15:15:40-05:00</lastmod>
   </url>
@@ -94,7 +99,7 @@
   
   <url>
     <loc>http://ovieh.com/</loc>
-    <lastmod>2017-12-03T15:15:40-05:00</lastmod>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
   </url>
   
   <url>
@@ -121,6 +126,12 @@
   </url>
   
   <url>
+    <loc>http://ovieh.com/tags/express/</loc>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ovieh.com/tags/express.js/</loc>
     <lastmod>2017-11-20T13:29:51-05:00</lastmod>
     <priority>0</priority>
@@ -129,6 +140,12 @@
   <url>
     <loc>http://ovieh.com/tags/firebase/</loc>
     <lastmod>2017-10-15T21:17:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ovieh.com/tags/handlebars/</loc>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -146,7 +163,7 @@
   
   <url>
     <loc>http://ovieh.com/tags/javascript/</loc>
-    <lastmod>2017-12-03T15:15:40-05:00</lastmod>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -164,13 +181,13 @@
   
   <url>
     <loc>http://ovieh.com/tags/mysql/</loc>
-    <lastmod>2017-12-03T15:15:40-05:00</lastmod>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ovieh.com/tags/node.js/</loc>
-    <lastmod>2017-12-03T15:15:40-05:00</lastmod>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,19 +211,31 @@
   
   <url>
     <loc>http://ovieh.com/post/</loc>
-    <lastmod>2017-12-03T15:15:40-05:00</lastmod>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ovieh.com/tags/sequelize/</loc>
-    <lastmod>2017-12-03T15:15:40-05:00</lastmod>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ovieh.com/tags/socket.io/</loc>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ovieh.com/tags/</loc>
     <lastmod>2017-10-15T21:17:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ovieh.com/tags/websockets/</loc>
+    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   

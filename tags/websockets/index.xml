@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Websockets on Ovieh Mosley</title>
+    <link>http://ovieh.com/tags/websockets/</link>
+    <description>Recent content in Websockets on Ovieh Mosley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Dec 2017 16:19:34 -0500</lastBuildDate>
+    
+	<atom:link href="http://ovieh.com/tags/websockets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weeks Sixteen &amp; Seventeen</title>
+      <link>http://ovieh.com/post/week-sixteen-seventeen/</link>
+      <pubDate>Wed, 20 Dec 2017 16:19:34 -0500</pubDate>
+      
+      <guid>http://ovieh.com/post/week-sixteen-seventeen/</guid>
+      <description>It has been a challenging last couple of weeks. We concurrently covered testing, both unit and functional, and completed our second group project. One of the toughest aspects of our group project is simply coming up with an idea for an application. We kicked around a few ideas, but eventually led drawing game, kind of like Pictionary, where one player has a clue and other player must guess what the drawer is, drawing.</description>
+    </item>
+    
+  </channel>
+</rss>
