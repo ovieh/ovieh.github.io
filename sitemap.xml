@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ovieh.com/post/week-nineteen/</loc>
+    <lastmod>2018-01-15T16:27:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ovieh.com/post/week-eighteen/</loc>
     <lastmod>2018-01-08T11:57:51-05:00</lastmod>
   </url>
@@ -104,7 +109,7 @@
   
   <url>
     <loc>http://ovieh.com/</loc>
-    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
+    <lastmod>2018-01-15T16:27:56-05:00</lastmod>
   </url>
   
   <url>
@@ -133,6 +138,12 @@
   <url>
     <loc>http://ovieh.com/tags/css/</loc>
     <lastmod>2017-08-26T09:40:33-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ovieh.com/tags/es6/</loc>
+    <lastmod>2018-01-15T16:27:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -174,7 +185,7 @@
   
   <url>
     <loc>http://ovieh.com/tags/javascript/</loc>
-    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <lastmod>2018-01-15T16:27:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -234,7 +245,13 @@
   
   <url>
     <loc>http://ovieh.com/post/</loc>
-    <lastmod>2018-01-08T11:57:51-05:00</lastmod>
+    <lastmod>2018-01-15T16:27:56-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ovieh.com/tags/react/</loc>
+    <lastmod>2018-01-15T16:27:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   

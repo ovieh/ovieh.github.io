@@ -5,10 +5,19 @@
     <link>http://ovieh.com/</link>
     <description>Recent content on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Jan 2018 11:57:51 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 16:27:56 -0500</lastBuildDate>
     
 	<atom:link href="http://ovieh.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week Nineteen</title>
+      <link>http://ovieh.com/post/week-nineteen/</link>
+      <pubDate>Mon, 15 Jan 2018 16:27:56 -0500</pubDate>
+      
+      <guid>http://ovieh.com/post/week-nineteen/</guid>
+      <description>So this is where the fun started. React is such joy to work with. Having once source for truth makes a lot sense. I have been picking up ES6 &amp;amp; ES7 features for a while now, and now its interesting seeing things like object destruturing and spread and rest used in a library. I really was not having much fun working on the front end, until now. I guess its the way that problems are approached, from Reacts perspective.</description>
+    </item>
     
     <item>
       <title>Week Eighteen</title>

@@ -47,6 +47,15 @@
     </item>
     
     <item>
+      <title>Es6</title>
+      <link>http://ovieh.com/tags/es6/</link>
+      <pubDate>Mon, 15 Jan 2018 16:27:56 -0500</pubDate>
+      
+      <guid>http://ovieh.com/tags/es6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Express</title>
       <link>http://ovieh.com/tags/express/</link>
       <pubDate>Mon, 08 Jan 2018 11:57:51 -0500</pubDate>
@@ -103,7 +112,7 @@
     <item>
       <title>Javascript</title>
       <link>http://ovieh.com/tags/javascript/</link>
-      <pubDate>Wed, 20 Dec 2017 16:19:34 -0500</pubDate>
+      <pubDate>Mon, 15 Jan 2018 16:27:56 -0500</pubDate>
       
       <guid>http://ovieh.com/tags/javascript/</guid>
       <description></description>
@@ -178,6 +187,15 @@
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
       <guid>http://ovieh.com/tags/orm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>http://ovieh.com/tags/react/</link>
+      <pubDate>Mon, 15 Jan 2018 16:27:56 -0500</pubDate>
+      
+      <guid>http://ovieh.com/tags/react/</guid>
       <description></description>
     </item>
     
