@@ -5,10 +5,20 @@
     <link>http://ovieh.com/tags/react/</link>
     <description>Recent content in React on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Jan 2018 16:27:56 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jan 2018 14:41:23 -0500</lastBuildDate>
     
 	<atom:link href="http://ovieh.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week Twenty</title>
+      <link>http://ovieh.com/post/week-twenty/</link>
+      <pubDate>Tue, 23 Jan 2018 14:41:23 -0500</pubDate>
+      
+      <guid>http://ovieh.com/post/week-twenty/</guid>
+      <description>This was our second week of covering React and one of our final weeks of learning new content. We covered the stuff necessary in making more featureful Single-Page Applications, AJAX calls, conditional rendering, and the use of React Router. As this was the final week before we began working on our Final Projects, the homework this week was optional. I am really glad I choose take it on.
+The previous week’s homework was considerably trivial use of React compared to this weeks.</description>
+    </item>
     
     <item>
       <title>Week Nineteen</title>
