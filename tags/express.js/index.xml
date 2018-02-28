@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Express.js on Ovieh Mosley</title>
-    <link>http://ovieh.com/tags/express.js/</link>
+    <link>https://ovieh.com/tags/express.js/</link>
     <description>Recent content in Express.js on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 20 Nov 2017 13:29:51 -0500</lastBuildDate>
     
-	<atom:link href="http://ovieh.com/tags/express.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ovieh.com/tags/express.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week Thirteen</title>
-      <link>http://ovieh.com/post/week-thirteen/</link>
+      <link>https://ovieh.com/post/week-thirteen/</link>
       <pubDate>Mon, 20 Nov 2017 13:29:51 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-thirteen/</guid>
+      <guid>https://ovieh.com/post/week-thirteen/</guid>
       <description>We are starting to put it all together. Our project this week was to create a friend recommendation app not dissimilar from Tinder. It is almost a full-stack app, it doesn’t quite have data persistence through a database. Class is starting to get complicated, but when you step back and think about things, the concepts make more sense. When you are running a web server, it makes perfect sense that your server won’t serve something it has no idea about, such as static files, unless you explicitly do so.</description>
     </item>
     

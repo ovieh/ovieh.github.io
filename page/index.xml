@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Ovieh Mosley</title>
-    <link>http://ovieh.com/page/</link>
+    <link>https://ovieh.com/page/</link>
     <description>Recent content in Pages on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 02 Nov 2017 08:46:56 -0400</lastBuildDate>
     
-	<atom:link href="http://ovieh.com/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ovieh.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>http://ovieh.com/page/projects/</link>
+      <link>https://ovieh.com/page/projects/</link>
       <pubDate>Thu, 02 Nov 2017 08:46:56 -0400</pubDate>
       
-      <guid>http://ovieh.com/page/projects/</guid>
+      <guid>https://ovieh.com/page/projects/</guid>
       <description>Feel to Reel  A movie recommendation app that uses an image from the user&#39;s webcam and Azure&#39;s Emotion API to deliver emotionally specific movie recommendations. Live Github     Friend Finder  This app uses Node.js and Express web frame. The user is asked to fill out a personality survey. At the completion of the survey the user is recommended a friend with similar scores. Live Github     Devour a Burger  This is Burger logger using Node.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://ovieh.com/page/about/</link>
+      <link>https://ovieh.com/page/about/</link>
       <pubDate>Fri, 04 Aug 2017 23:05:06 -0400</pubDate>
       
-      <guid>http://ovieh.com/page/about/</guid>
+      <guid>https://ovieh.com/page/about/</guid>
       <description>Ovieh is a Brooklyn-based full-stack web developer with a strong knowledge of emerging technology and cutting-edge industry trends. The Detroit native possesses the grit and savvy to face challenges head on with out-the-box solutions. His natural knack for coding and processing complex systems combined with his experience with MERN stack result in high quality and high performing web applications. In his free time, Ovieh is an avid brewer and practices martial arts.</description>
     </item>
     

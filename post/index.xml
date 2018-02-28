@@ -2,195 +2,195 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ovieh Mosley</title>
-    <link>http://ovieh.com/post/</link>
+    <link>https://ovieh.com/post/</link>
     <description>Recent content in Posts on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 23 Jan 2018 14:41:23 -0500</lastBuildDate>
     
-	<atom:link href="http://ovieh.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ovieh.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week Twenty</title>
-      <link>http://ovieh.com/post/week-twenty/</link>
+      <link>https://ovieh.com/post/week-twenty/</link>
       <pubDate>Tue, 23 Jan 2018 14:41:23 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-twenty/</guid>
+      <guid>https://ovieh.com/post/week-twenty/</guid>
       <description>This was our second week of covering React and one of our final weeks of learning new content. We covered the stuff necessary in making more featureful Single-Page Applications, AJAX calls, conditional rendering, and the use of React Router. As this was the final week before we began working on our Final Projects, the homework this week was optional. I am really glad I choose take it on.
 The previous week’s homework was considerably trivial use of React compared to this weeks.</description>
     </item>
     
     <item>
       <title>Week Nineteen</title>
-      <link>http://ovieh.com/post/week-nineteen/</link>
+      <link>https://ovieh.com/post/week-nineteen/</link>
       <pubDate>Mon, 15 Jan 2018 16:27:56 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-nineteen/</guid>
+      <guid>https://ovieh.com/post/week-nineteen/</guid>
       <description>So this is where the fun started. React is such joy to work with. Having once source for truth makes a lot sense. I have been picking up ES6 &amp;amp; ES7 features for a while now, and now its interesting seeing things like object destruturing and spread and rest used in a library. I really was not having much fun working on the front end, until now. I guess its the way that problems are approached, from Reacts perspective.</description>
     </item>
     
     <item>
       <title>Week Eighteen</title>
-      <link>http://ovieh.com/post/week-eighteen/</link>
+      <link>https://ovieh.com/post/week-eighteen/</link>
       <pubDate>Mon, 08 Jan 2018 11:57:51 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-eighteen/</guid>
+      <guid>https://ovieh.com/post/week-eighteen/</guid>
       <description>This week we added another tool to our toolbox, MongoDB. And unlike MySQL, it does not care what you put in to it. It just accepts the data. Which is a blessing and a curse. To remedy this, there exists a project called Mongoose. Mongoose provides a MondoDB database with an ORM, which allows for validation. Since we previously learned Firebase, it was relatively easy to pick up Mongo. We just had to learn how to implement it with Node.</description>
     </item>
     
     <item>
       <title>Weeks Sixteen &amp; Seventeen</title>
-      <link>http://ovieh.com/post/week-sixteen-seventeen/</link>
+      <link>https://ovieh.com/post/week-sixteen-seventeen/</link>
       <pubDate>Wed, 20 Dec 2017 16:19:34 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-sixteen-seventeen/</guid>
+      <guid>https://ovieh.com/post/week-sixteen-seventeen/</guid>
       <description>It has been a challenging last couple of weeks. We concurrently covered testing, both unit and functional, and completed our second group project. One of the toughest aspects of our group project is simply coming up with an idea for an application. We kicked around a few ideas, but eventually led drawing game, kind of like Pictionary, where one player has a clue and other player must guess what the drawer is, drawing.</description>
     </item>
     
     <item>
       <title>Week Fifthteen</title>
-      <link>http://ovieh.com/post/week-fifthteen/</link>
+      <link>https://ovieh.com/post/week-fifthteen/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-fifthteen/</guid>
+      <guid>https://ovieh.com/post/week-fifthteen/</guid>
       <description>This was a short week in terms of new material, as it was running concurrently with the planning of our second group project. We build off the knowledge we gained last week in building our own ORM, and used an off the shelf model, Sequelize. I found Sequelize itself to be pretty easy to use, since it is promise based. Dealing with callbacks can get messy. Our project this week was merely to refactor last week&amp;rsquo;s project, were we created are own ORM, using Sequelize.</description>
     </item>
     
     <item>
       <title>Week Fourteen</title>
-      <link>http://ovieh.com/post/week-fourteen/</link>
+      <link>https://ovieh.com/post/week-fourteen/</link>
       <pubDate>Sun, 26 Nov 2017 10:20:22 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-fourteen/</guid>
+      <guid>https://ovieh.com/post/week-fourteen/</guid>
       <description>This week we dove deeper into Express and covered Handlebars.js, a html templating engine. HTML templating provides a bridge between our JavaScript and our content, allowing us to decouple our HTML structure of the data within. Handlebars provides pretty easy to understand syntax and even allows block expression. As an example, let say I had list of burgers I want to iterate through and add each burger as a list item, it would look like this:</description>
     </item>
     
     <item>
       <title>Week Thirteen</title>
-      <link>http://ovieh.com/post/week-thirteen/</link>
+      <link>https://ovieh.com/post/week-thirteen/</link>
       <pubDate>Mon, 20 Nov 2017 13:29:51 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-thirteen/</guid>
+      <guid>https://ovieh.com/post/week-thirteen/</guid>
       <description>We are starting to put it all together. Our project this week was to create a friend recommendation app not dissimilar from Tinder. It is almost a full-stack app, it doesn’t quite have data persistence through a database. Class is starting to get complicated, but when you step back and think about things, the concepts make more sense. When you are running a web server, it makes perfect sense that your server won’t serve something it has no idea about, such as static files, unless you explicitly do so.</description>
     </item>
     
     <item>
       <title>Week Twelve</title>
-      <link>http://ovieh.com/post/week-twelve/</link>
+      <link>https://ovieh.com/post/week-twelve/</link>
       <pubDate>Sat, 11 Nov 2017 21:47:12 -0500</pubDate>
       
-      <guid>http://ovieh.com/post/week-twelve/</guid>
+      <guid>https://ovieh.com/post/week-twelve/</guid>
       <description>This last week I became reaquainted with MySQL. It’s not so bad. The syntax is relatively straightforward. The keywords are close to to natural language. This was another week getting familiar with the power of Node.js. It is really easy to integrate some really powerful tools.
 Our assignment this week was to create backend for store using MySQL running on Node.js.Working with MySQL was pretty straightforward, updating, selecting from, and inserting into the database.</description>
     </item>
     
     <item>
       <title>Week Eleven</title>
-      <link>http://ovieh.com/post/week-eleven/</link>
+      <link>https://ovieh.com/post/week-eleven/</link>
       <pubDate>Wed, 01 Nov 2017 16:02:48 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-eleven/</guid>
+      <guid>https://ovieh.com/post/week-eleven/</guid>
       <description>This week was surprisingly challenging. What makes this program interesting is that we often are giving just enough tools to complete assignment. The examples we covered in class were not as complex as the assignment turned out to be. Albeit, it could be me overcomplicating things. I tried to abstract this project as completely as possible. I also tried to cover every edge case, every error.
 This weeks project was a bit of remix.</description>
     </item>
     
     <item>
       <title>Week Ten</title>
-      <link>http://ovieh.com/post/week-ten/</link>
+      <link>https://ovieh.com/post/week-ten/</link>
       <pubDate>Mon, 23 Oct 2017 13:44:54 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-ten/</guid>
+      <guid>https://ovieh.com/post/week-ten/</guid>
       <description>This has been my favorite week of learning yet. This was our introduction to Node.js, which is a JavaScript runtime engine. What that all means is that it allow us to use JavaScript outside of the browser. That opens up doors. Prior to Node.js developers had to learn a second language for the backend, such as PHP or Java. Now, no need. With just one language a developer can handle the tasks of both the front and backend of the stack.</description>
     </item>
     
     <item>
       <title>Weeks Eight &amp; Nine</title>
-      <link>http://ovieh.com/post/week8and9/</link>
+      <link>https://ovieh.com/post/week8and9/</link>
       <pubDate>Sun, 15 Oct 2017 21:17:05 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week8and9/</guid>
+      <guid>https://ovieh.com/post/week8and9/</guid>
       <description>The last couple of weeks were spent working on our first group project. It was quite the learning experience. The first obstacle was to figure out what exactly we should do for a project. I first suggested a music based food recommendation app. That really did not go anywhere. It’s not a terrible idea. We eventually landed on an app that would give you movie recommendations based on your facial expression.</description>
     </item>
     
     <item>
       <title>Quotation</title>
-      <link>http://ovieh.com/post/quotation/</link>
+      <link>https://ovieh.com/post/quotation/</link>
       <pubDate>Wed, 04 Oct 2017 16:11:20 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/quotation/</guid>
+      <guid>https://ovieh.com/post/quotation/</guid>
       <description>I use Hugo to generate html for site. I have been using Google Docs to draft posts, to take advantage of spell check. What I did not realize, is that the quotation marks that are used in word processing programs and quotation marks used in html are not the same. This lead to to dead links in previous two posts. Live and learn.</description>
     </item>
     
     <item>
       <title>Week Seven</title>
-      <link>http://ovieh.com/post/week-seven/</link>
+      <link>https://ovieh.com/post/week-seven/</link>
       <pubDate>Mon, 02 Oct 2017 18:07:57 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-seven/</guid>
+      <guid>https://ovieh.com/post/week-seven/</guid>
       <description>Until now our programs only cared about the now, they only lived in the moment. This week we learned ways of giving our software something that dogs do not have, object permanence. We covered three ways of storing data with Javascript just using what’s in the browser; HTML5 Web Storage as well touching on Cookies. On the third day we covered the use of a Google product, Firebase. The database feature from Firebase includes a couple of really useful features, namely, in our use at least, a method that listens to changes in the database and call a function.</description>
     </item>
     
     <item>
       <title>Week Six</title>
-      <link>http://ovieh.com/post/week-six/</link>
+      <link>https://ovieh.com/post/week-six/</link>
       <pubDate>Wed, 27 Sep 2017 15:29:58 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-six/</guid>
+      <guid>https://ovieh.com/post/week-six/</guid>
       <description>This week we learned ways of accessing tools and data not of our creation through APIs, or Application Programming Interfaces. This is a pretty important step in our learning progression, since no man is an island, it is fundamental to learn to leverage the work of others. I think the most important lesson I learned this week was importance of reading documentation. When I think about it, I have always enjoyed reading instructions.</description>
     </item>
     
     <item>
       <title>Week Five</title>
-      <link>http://ovieh.com/post/week-five/</link>
+      <link>https://ovieh.com/post/week-five/</link>
       <pubDate>Wed, 20 Sep 2017 16:22:24 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-five/</guid>
+      <guid>https://ovieh.com/post/week-five/</guid>
       <description>Not a ton of new content was covered this week. The first day we had a Javascript review, where we went over previous content with the lens of what we know now. I did not get much of this day, since everything we have learned is still fresh. The second day we covered Javascript Timing Events. What we learned that day was enough for us to tackle our week five homework.</description>
     </item>
     
     <item>
       <title>Week Four</title>
-      <link>http://ovieh.com/post/week-four/</link>
+      <link>https://ovieh.com/post/week-four/</link>
       <pubDate>Sat, 09 Sep 2017 09:55:17 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-four/</guid>
+      <guid>https://ovieh.com/post/week-four/</guid>
       <description>This was probably my favorite week yet. Some of the concepts are starting to stick, my ability to think programmatically is improving. We went into Javascript and jQuery a little more in depth. The concept of scope was covered extensively. My prior experience helped out immensely.
 And to get into my prior experience. My first formal introduction into programming while we had a Clinton in the White House. Things were rosy.</description>
     </item>
     
     <item>
       <title>Week Three</title>
-      <link>http://ovieh.com/post/week-three/</link>
+      <link>https://ovieh.com/post/week-three/</link>
       <pubDate>Sat, 02 Sep 2017 16:58:20 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-three/</guid>
+      <guid>https://ovieh.com/post/week-three/</guid>
       <description>This week was spent getting acquainted with Javascript. Which is a scripting language that adds functionality to websites. It can be used to manipulate the page itself, such as adding elements, text, images. It can also be used to to do nitty-gritty things, like math. I do have a good amount of experience with programming languages, but it has been a while since I have had to think programmatically. Everyone programming language as its own quirks.</description>
     </item>
     
     <item>
       <title>Week Two, Part 2</title>
-      <link>http://ovieh.com/post/week2-2/</link>
+      <link>https://ovieh.com/post/week2-2/</link>
       <pubDate>Sat, 26 Aug 2017 09:40:33 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week2-2/</guid>
+      <guid>https://ovieh.com/post/week2-2/</guid>
       <description>I submitted my homework. I am not thrilled with my work. I spent many hours trying hacking away at the Bootstrap-Portfolio trying to format it to spec. My biggest isssue is that the breakpoints in our spec are not the same as the breakpoints that Bootstrap 4 uses. The easiest way to have fixed this would have been to customized my own downloaded version of Bootstrap by using Sass, which is something that seemed overly complicated at the time.</description>
     </item>
     
     <item>
       <title>Week Two</title>
-      <link>http://ovieh.com/post/week-two/</link>
+      <link>https://ovieh.com/post/week-two/</link>
       <pubDate>Mon, 21 Aug 2017 17:30:30 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-two/</guid>
+      <guid>https://ovieh.com/post/week-two/</guid>
       <description>This past week was spent learning the wonders of Responsive CSS. We spent a small amount of time learning media queries, which is fine sense it’s a fairly simple concept. It just involves more hacking around, just with considerations for specific screen sizes. The first part of our homework was to refactor our week one Portfolio Site utilizing media queries. That in itself did not take too much time. The second part of the homework is to refactor the original site using Bootstrap 4.</description>
     </item>
     
     <item>
       <title>Week One</title>
-      <link>http://ovieh.com/post/week-one/</link>
+      <link>https://ovieh.com/post/week-one/</link>
       <pubDate>Mon, 14 Aug 2017 20:45:44 -0400</pubDate>
       
-      <guid>http://ovieh.com/post/week-one/</guid>
+      <guid>https://ovieh.com/post/week-one/</guid>
       <description>I am really excited to start a new chapter in my life and puruse something that I am passionate about. It has been a real treat to face challenges and overcome them. Over the next 23 weeks I will transform myself into a Full Stack Developer.
 First Weeks Homework My first project was to recrate a Personal Portfolio site from spec. It was a real drag getting all the content to align, utilizing floats and then clearing the floats.</description>
     </item>
