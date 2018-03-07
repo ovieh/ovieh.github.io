@@ -51,12 +51,12 @@ draft: false
         </div>
         <div class="col-lg-6 portfolio-item">
           <div class="card h-100">
-            <a href="http://ovieh.com/React-Memory-Game/"><img class="card-img-top" src="/img/memory-game.png" alt=""></a>
+            <a href="http://reactmemorygame.netlify.com/"><img class="card-img-top" src="/img/memory-game.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="http://ovieh.com/React-Memory-Game/">React Memory Game</a>
+                <a href="http://reactmemorygame.netlify.com/">React Memory Game</a>
               </h4>
-              <p class="card-text">Memory Game demonstrating state management and conditional rendering with React. <a href="http://ovieh.com/React-Memory-Game/" target="_blank">Live</a> <a href="https://github.com/ovieh/React-Memory-Game">Github</a></p>
+              <p class="card-text">Memory Game demonstrating state management and conditional rendering with React. <a href="http://reactmemorygame.netlify.com/" target="_blank">Live</a> <a href="https://github.com/ovieh/React-Memory-Game">Github</a></p>
             </div>
           </div>
         </div>
