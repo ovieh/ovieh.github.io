@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Socket.io on Ovieh Mosley</title>
-    <link>https://ovieh.com/tags/socket.io/</link>
-    <description>Recent content in Socket.io on Ovieh Mosley</description>
+    <title>Webrtc on Ovieh Mosley</title>
+    <link>https://ovieh.com/tags/webrtc/</link>
+    <description>Recent content in Webrtc on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 26 Feb 2018 16:28:51 -0500</lastBuildDate>
     
-	<atom:link href="https://ovieh.com/tags/socket.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ovieh.com/tags/webrtc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       <guid>https://ovieh.com/post/final-project/</guid>
       <description>The remaining three weeks of class were mainly devoted to the development of our final projects. In that time we we also covered React in more depth and went over some some Computer Science fundamental, data structure and algorithms.
 I am not quite sure why I am so fond of React. Perhaps it feels like it gives needed structure to the front-end. And adding even more structure, we covered Redux. Redux provides a predictable state container for JavaScript apps.</description>
-    </item>
-    
-    <item>
-      <title>Weeks Sixteen &amp; Seventeen</title>
-      <link>https://ovieh.com/post/week-sixteen-seventeen/</link>
-      <pubDate>Wed, 20 Dec 2017 16:19:34 -0500</pubDate>
-      
-      <guid>https://ovieh.com/post/week-sixteen-seventeen/</guid>
-      <description>It has been a challenging last couple of weeks. We concurrently covered testing, both unit and functional, and completed our second group project. One of the toughest aspects of our group project is simply coming up with an idea for an application. We kicked around a few ideas, but eventually led drawing game, kind of like Pictionary, where one player has a clue and other player must guess what the drawer is, drawing.</description>
     </item>
     
   </channel>

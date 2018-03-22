@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ovieh.com/post/final-project/</loc>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ovieh.com/post/week-twenty/</loc>
     <lastmod>2018-01-23T14:41:23-05:00</lastmod>
   </url>
@@ -114,7 +119,7 @@
   
   <url>
     <loc>https://ovieh.com/</loc>
-    <lastmod>2018-01-23T14:41:23-05:00</lastmod>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
   </url>
   
   <url>
@@ -190,7 +195,7 @@
   
   <url>
     <loc>https://ovieh.com/tags/javascript/</loc>
-    <lastmod>2018-01-23T14:41:23-05:00</lastmod>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -250,13 +255,25 @@
   
   <url>
     <loc>https://ovieh.com/post/</loc>
-    <lastmod>2018-01-23T14:41:23-05:00</lastmod>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.com/tags/project/</loc>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ovieh.com/tags/react/</loc>
-    <lastmod>2018-01-23T14:41:23-05:00</lastmod>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.com/tags/redux/</loc>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -268,13 +285,19 @@
   
   <url>
     <loc>https://ovieh.com/tags/socket.io/</loc>
-    <lastmod>2017-12-20T16:19:34-05:00</lastmod>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ovieh.com/tags/</loc>
     <lastmod>2017-10-15T21:17:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ovieh.com/tags/webrtc/</loc>
+    <lastmod>2018-02-26T16:28:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   

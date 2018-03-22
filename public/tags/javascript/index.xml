@@ -5,10 +5,20 @@
     <link>https://ovieh.com/tags/javascript/</link>
     <description>Recent content in Javascript on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Jan 2018 14:41:23 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 16:28:51 -0500</lastBuildDate>
     
 	<atom:link href="https://ovieh.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Final Project</title>
+      <link>https://ovieh.com/post/final-project/</link>
+      <pubDate>Mon, 26 Feb 2018 16:28:51 -0500</pubDate>
+      
+      <guid>https://ovieh.com/post/final-project/</guid>
+      <description>The remaining three weeks of class were mainly devoted to the development of our final projects. In that time we we also covered React in more depth and went over some some Computer Science fundamental, data structure and algorithms.
+I am not quite sure why I am so fond of React. Perhaps it feels like it gives needed structure to the front-end. And adding even more structure, we covered Redux. Redux provides a predictable state container for JavaScript apps.</description>
+    </item>
     
     <item>
       <title>Week Twenty</title>
