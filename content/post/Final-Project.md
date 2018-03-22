@@ -20,8 +20,8 @@ Now the hard part was finding a way to run the code that users submit without bl
 Here is a link to the [live site](https://codenector.herokuapp.com/) and a link to [distribution](https://github.com/CodeNector/CodeNector) on Github.
 
 
-![Splash Screen](/img/final_project1.png)
-![Editor](/img/final_project2.png)
+![Splash Screen](/img/final_project_1.png)
+![Editor](/img/final_project_2.png)
 
 
 
