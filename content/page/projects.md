@@ -10,7 +10,7 @@ draft: false
             <a href="https://feel-to-reel.firebaseapp.com/"><img class="card-img-top" src="/img/feel-to-reel.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="https://feel-to-reel.firebaseapp.com/" target="_blank"">Feel to Reel</a>
+                <a href="https://feel-to-reel.firebaseapp.com/" target="_blank">Feel to Reel</a>
               </h4>
               <p class="card-text">A movie recommendation app that uses an image from the user's webcam and Azure's Emotion API to deliver emotionally specific movie recommendations. <a href="https://feel-to-reel.firebaseapp.com/" target="_blank">Live</a> <a href="https://github.com/ovieh/Feel-to-Reel" target="_blank">Github</a> </p>
             </div>
@@ -23,7 +23,7 @@ draft: false
               <h4 class="card-title">
                 <a href="https://codenector.herokuapp.com/" target="_blank">CodeNector</a>
               </h4>
-              <p class="card-text">A Pair Programming App utilzing React, Redux, & Socket.io. It allows multiple users to share the same JavaScript development environment. <a href="https://codenector.herokuapp.com/" target="_blank">Live</a> <a href="https://github.com/CodeNector/CodeNector" target="_blank">Github</a> </p>
+              <p class="card-text">A Pair Programming App utilzing React, Redux, & Socket.io. It allows multiple users to share the same JavaScript development environment and for the safe execution of code in the browser. <a href="https://codenector.herokuapp.com/" target="_blank">Live</a> <a href="https://github.com/CodeNector/CodeNector" target="_blank">Github</a> </p>
             </div>
           </div>
         </div>
