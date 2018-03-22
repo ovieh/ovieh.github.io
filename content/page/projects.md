@@ -18,12 +18,12 @@ draft: false
         </div>
         <div class="col-lg-6 portfolio-item">
           <div class="card h-100">
-            <a href="https://finderoffriends.herokuapp.com/"><img class="card-img-top" src="/img/friendfinder.png" alt=""></a>
+            <a href="https://codenector.herokuapp.com/"><img class="card-img-top" src="/img/codenector.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="https://finderoffriends.herokuapp.com/" target="_blank">Friend Finder</a>
+                <a href="https://codenector.herokuapp.com/" target="_blank">CodeNector</a>
               </h4>
-              <p class="card-text">This app uses Node.js and Express web frame. The user is asked to fill out a personality survey. At the completion of the survey the user is recommended a friend with similar scores. <a href="https://feel-to-reel.firebaseapp.com/" target="_blank">Live</a> <a href="https://github.com/ovieh/Feel-to-Reel" target="_blank">Github</a> </p>
+              <p class="card-text">A Pair Programming App utilzing React, Redux, & Socket.io. It allows multiple users to share the same JavaScript development environment. <a href="https://codenector.herokuapp.com/" target="_blank">Live</a> <a href="https://github.com/CodeNector/CodeNector" target="_blank">Github</a> </p>
             </div>
           </div>
         </div>
