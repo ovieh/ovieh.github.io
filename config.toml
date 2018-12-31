@@ -92,3 +92,15 @@ desc = "Photo by me"
     name = "Tags"
     url = "tags"
     weight = 3
+    
+# GDPR Stuff
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
