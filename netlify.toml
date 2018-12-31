@@ -11,14 +11,14 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.37"
+HUGO_VERSION = "0.53"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.37"
+HUGO_VERSION = "0.53"
 
 [context.branch-deploy]
 command = "hugo -b $DEPLOY_PRIME_URL"
