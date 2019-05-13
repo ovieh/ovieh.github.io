@@ -1,11 +1,10 @@
 baseurl = "https://ovieh.com"
 DefaultContentLanguage = "en"
-#DefaultContentLanguage = "ja"
 title = "Ovieh Mosley"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentCodeFences = true
+pygmentsCodefences = true
+pygmentsStyle = "native"
 #disqusShortname = "XXX"
 googleAnalytics = "UA-104019397-1"
 

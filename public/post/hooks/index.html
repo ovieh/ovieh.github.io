@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Hooks &amp; More! - Ovieh Mosley</title>
+  <meta property="og:title" content="Hooks &amp; More!" />
+  <meta name="twitter:title" content="Hooks &amp; More!" />
+  <meta name="description" content="I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles.">
+  <meta property="og:description" content="I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles.">
+  <meta name="twitter:description" content="I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses …">
+  <meta name="author" content="ovieh.com"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Ovieh Mosley",
+    
+    "url": "https:\/\/ovieh.com"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/ovieh.com"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/ovieh.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/ovieh.com\/post\/hooks\/",
+          "name": "Hooks \x26 more!"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Ovieh"
+  },
+  "headline": "Hooks \x26 More!",
+  "description" : "I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles.",
+  "inLanguage" : "en",
+  "wordCount":  813 ,
+  "datePublished" : "2019-05-13T00:00:00",
+  "dateModified" : "2019-05-13T00:00:00",
+  "image" : "https:\/\/ovieh.com\/img\/profile.jpg",
+  "keywords" : [ "React, Suspense, MongoDB, Node, Express, React Hooks" ],
+  "mainEntityOfPage" : "https:\/\/ovieh.com\/post\/hooks\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/ovieh.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/ovieh.com\/img\/profile.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Hooks &amp; More!" />
+<meta property="og:description" content="I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles.">
+<meta property="og:image" content="https://ovieh.com/img/profile.jpg" />
+<meta property="og:url" content="https://ovieh.com/post/hooks/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Ovieh Mosley" />
+  <meta name="twitter:title" content="Hooks &amp; More!" />
+  <meta name="twitter:description" content="I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses …">
+  <meta name="twitter:image" content="https://ovieh.com/img/profile.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ovieh" />
+  <meta name="twitter:creator" content="@ovieh" />
+  <link href='https://ovieh.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://ovieh.com/img/profile.jpg" />
+  <meta name="twitter:image" content="https://ovieh.com/img/profile.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ovieh" />
+  <meta name="twitter:creator" content="@ovieh" />
+  <meta property="og:url" content="https://ovieh.com/post/hooks/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Ovieh Mosley" />
+
+  <meta name="generator" content="Hugo 0.55.5" />
+  <link rel="alternate" href="https://ovieh.com/index.xml" type="application/rss+xml" title="Ovieh Mosley"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://ovieh.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://ovieh.com/css/syntax.css" /><link rel="stylesheet" href="https://ovieh.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-104019397-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://ovieh.com">Ovieh Mosley</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="projects" href="/page/projects">projects</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Ovieh Mosley" href="https://ovieh.com">
+            <img class="avatar-img" src="https://ovieh.com/img/profile.jpg" alt="Ovieh Mosley" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Hooks &amp; More!</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 13, 2019
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Ovieh
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p>I decided to create a <a href="https://github.com/ovieh/react-scraper" rel="noreferrer noopener" target="_blank">project</a> to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles. The backed uses MongoDB and Mongoose as ORM.</p>
+
+<h3 id="what-are-hooks">What are hooks?</h3>
+
+<p>Hooks are functions that allow developers to access state without writing a class. Why would anyone want to access state without writing a class? Functional Components are just easier to read with less boilerplate, compared to their class brethren. Compare the following to excerpts.</p>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#6ab825;font-weight:bold">import</span> React from <span style="color:#ed9d13">&#34;react&#34;</span>;
+
+<span style="color:#6ab825;font-weight:bold">class</span> Person <span style="color:#6ab825;font-weight:bold">extends</span> React.Component {
+  constructor(props){
+    <span style="color:#6ab825;font-weight:bold">super</span>(props);
+    <span style="color:#6ab825;font-weight:bold">this</span>.state ={
+      name: <span style="color:#ed9d13">&#39;Smuckatelli&#39;</span>,
+      age: <span style="color:#3677a9">20</span>
+    }
+  }
+
+  render(){
+    <span style="color:#6ab825;font-weight:bold">return</span>(
+      &lt;<span style="color:#6ab825;font-weight:bold">div</span>&gt;
+        &lt;<span style="color:#6ab825;font-weight:bold">p</span>&gt;Your name is {<span style="color:#6ab825;font-weight:bold">this</span>.state.name} and your are {<span style="color:#6ab825;font-weight:bold">this</span>.state.age} years old.&lt;/<span style="color:#6ab825;font-weight:bold">p</span>&gt;
+        &lt;<span style="color:#6ab825;font-weight:bold">button</span> <span style="color:#bbb">onClick</span>=<span style="color:#ed9d13">{()</span> <span style="color:#a61717;background-color:#e3d2d2">=</span>&gt; <span style="color:#6ab825;font-weight:bold">this</span>.setState({ age: <span style="color:#6ab825;font-weight:bold">this</span>.state.age + <span style="color:#3677a9">1</span> })}&gt;Age a Year&lt;/<span style="color:#6ab825;font-weight:bold">button</span>&gt;
+      &lt;/<span style="color:#6ab825;font-weight:bold">div</span>&gt;
+    );
+  }
+}</code></pre></div><div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#6ab825;font-weight:bold">import</span> React, { useState } from <span style="color:#ed9d13">&#34;react&#34;</span>;
+
+<span style="color:#6ab825;font-weight:bold">const</span> Person = () =&gt; {
+  <span style="color:#6ab825;font-weight:bold">const</span> [name, setName] = useState(<span style="color:#ed9d13">&#39;Smuckatelli&#39;</span>);
+  <span style="color:#6ab825;font-weight:bold">const</span> [age, setAge] = useState(<span style="color:#3677a9">20</span>);
+
+  <span style="color:#6ab825;font-weight:bold">return</span> (
+    &lt;<span style="color:#6ab825;font-weight:bold">div</span>&gt;
+      &lt;<span style="color:#6ab825;font-weight:bold">p</span>&gt;Your name is {name} and your are {age} years old.&lt;/<span style="color:#6ab825;font-weight:bold">p</span>&gt;
+      &lt;<span style="color:#6ab825;font-weight:bold">button</span> <span style="color:#bbb">onClick</span>=<span style="color:#ed9d13">{()=</span>&gt; setAge(age + <span style="color:#3677a9">1</span>)}&gt;Age a Year&lt;/<span style="color:#6ab825;font-weight:bold">button</span>&gt;
+    &lt;/<span style="color:#6ab825;font-weight:bold">div</span>&gt;
+  );
+
+}</code></pre></div>
+<p>The previous excerpts are functionally the same. I find the second far easier to read and concise. Also, I have personal dislike
+of the <em>this</em> keyword, so any chance to be rid of <em>this</em> is a win to me. What makes the second excerpt work is the useState function which returns a pair: the <em>current</em> state value and a function that allows you to update that value.</p>
+
+<p>Other than <em>useState</em>, the other provided Hook I used in this project is <em>useEffect</em>. In Functional Components, it is the lone lifecycle method available. My project calls the API when the page is loaded, to do this with classes, I would need to place the API call in <em>componentDidMount</em> lifecyle method, folllowed with a <em>componentDidUnmount</em> method to handle any cleaning up that needs to take place. Using Hooks, the <em>useEffect</em> methods handles both those previous methods. An example of its use is below.</p>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#6ab825;font-weight:bold">import</span> React, { useState, useEffect };
+
+<span style="color:#6ab825;font-weight:bold">const</span> Home = () =&gt; {
+  <span style="color:#6ab825;font-weight:bold">const</span> [articles, setArticles] = useState();
+
+  useEffect(()=&gt; {
+    <span style="color:#6ab825;font-weight:bold">const</span> result = API.getArticles();
+    setArticles(result);
+  }, []);
+}</code></pre></div>
+<p>The previous excerpt updates the <em>articles</em> variable via the <em>setArticles</em> function utilizing the useEffect hook. I then pass in empty array as an argument to let <em>useEffect</em> know only to run and clean it up only once, on mount and unmount. Without that empty array, <em>useEffect</em> will be run on every render.</p>
+
+<h3 id="custom-hooks">Custom Hooks!</h3>
+
+<p>Besides the built-in hooks provided, two of which I have demonstrated the use of, you build your own custom hooks! This is useful in keeping your codebase DRY and encouraging reuse. In this project I created a custom hook that combines state and localStorage. Just to keep things snappy, instead of calling the API on each pageload, the current sessions article data is stored in localStorage. If it is exsists, the state is set to what is contained in localStorage. As I write this, it occurs to me that sessionStorage may be a fitter fit for this application. Be that as it may, the code for my custom hook <em>useStateWithLocalStoarge</em> is below.</p>
+<div class="highlight"><pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#6ab825;font-weight:bold">const</span> useStateWithLocalStorage = localStorageKey =&gt; {
+  <span style="color:#6ab825;font-weight:bold">const</span> [value, setValue] = useState(
+    JSON.parse(localStorage.getItem(localStorageKey)) || <span style="color:#ed9d13">&#39;&#39;</span>
+  );
+
+  useEffect(()=&gt; {
+    localStorage.setItem(localStorageKey, JSON.stringify(value));
+  }, [value]);
+
+  <span style="color:#6ab825;font-weight:bold">return</span> [value, setValue];
+}</code></pre></div>
+<p>By convention, hooks begin with <em>use</em>, as in <em>useState</em>, or <em>useEffect</em>. This lets linters know that this function is a hook. This hook returns a value and function that controls that value. To use this hook, it is pretty much identitical to <em>useState</em>, only uou pass in a localStorageKey.</p>
+
+<h3 id="suspense-and-being-lazy">Suspense and Being Lazy</h3>
+
+<p>The final new(ish) React features I implemented are some of the Concurrent React features including <em>Suspense</em> and <em>React.lazy</em>. <em>React.lazy</em> leverages Webpack and allows for <em>lazy</em> or dynamic loading. Instead of delivering all components at once, we can decide to have them load when the parent component gets rendered. What if the parent component is not yet loaded, what is displayed in its place? Prior to <em>Suspense</em>, nothing. <em>Suspense</em> allows developers to set a fallback component while we are waiting for component that is being dynamically loaded.</p>
+
+<p>While <a href="https://reactjs.org/blog/2018/11/27/react-16-roadmap.html" target="_blank" rel="noreferrer noopener">not ready</a> for production Concurrent React is pretty cool. As of React 16.8, <em>Concurrent Rendering</em> is unstable, but from the tests I have run, works pretty impressively. How it works, I do not know, but React somehow prioritizes what is being loaded and rendered. <em>Suspense</em> currently works without <em>Concurrent</em> mode being active, but there appears to be more blocking while rendering.</p>
+
+<p>Here is a <a href="https://techsearch.herokuapp.com/" rel="noopener noreferrer" target="_blank">link</a> to the app itself and here is a <a href="https://github.com/ovieh/react-scraper" rel="noreferrer noopener" target="_blank">link</a> the code in my repository.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://ovieh.com/tags/react/">React</a>&nbsp;
+            
+              <a href="https://ovieh.com/tags/suspense/">Suspense</a>&nbsp;
+            
+              <a href="https://ovieh.com/tags/mongodb/">MongoDB</a>&nbsp;
+            
+              <a href="https://ovieh.com/tags/node/">Node</a>&nbsp;
+            
+              <a href="https://ovieh.com/tags/express/">Express</a>&nbsp;
+            
+              <a href="https://ovieh.com/tags/react-hooks/">React Hooks</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://ovieh.com/post/final-project/" data-toggle="tooltip" data-placement="top" title="Final Project">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="https://github.com/ovieh" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ovieh" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/ovieh" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://ovieh.com/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              ovieh.com
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2019
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://ovieh.com">Ovieh Mosley</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.55.5</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://ovieh.com/js/main.js"></script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://ovieh.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

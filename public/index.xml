@@ -5,10 +5,19 @@
     <link>https://ovieh.com/</link>
     <description>Recent content on Ovieh Mosley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 Feb 2018 16:28:51 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ovieh.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hooks &amp; More!</title>
+      <link>https://ovieh.com/post/hooks/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ovieh.com/post/hooks/</guid>
+      <description>I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles.</description>
+    </item>
     
     <item>
       <title>Final Project</title>
