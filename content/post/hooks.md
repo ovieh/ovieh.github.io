@@ -57,7 +57,7 @@ const Person = () => {
 The previous excerpts are functionally the same. I find the second far easier to read and concise. Also, I have personal dislike
 of the *this* keyword, so any chance to be rid of *this* is a win to me. What makes the second excerpt work is the useState function which returns a pair: the *current* state value and a function that allows you to update that value. 
 
-Other than *useState*, the other provided Hook I used in this project is *useEffect*. In Functional Components, it is the lone lifecycle method available. My project calls the API when the page is loaded, to do this with classes, I would need to place the API call in *componentDidMount* lifecyle method, folllowed with a *componentDidUnmount* method to handle any cleaning up that needs to take place. Using Hooks, the *useEffect* methods handles both those previous methods. An example of its use is below.
+Other than *useState*, the other provided Hook I used in this project is *useEffect*. In Functional Components, it is the lone lifecycle method available. My project calls the API when the page is loaded, to do this with classes, I would need to place the API call in *componentDidMount* lifecyle method, followed with a *componentDidUnmount* method to handle any cleaning up that needs to take place. Using Hooks, the *useEffect* methods handles both those previous methods. An example of its use is below.
 
 ``` jsx
 import React, { useState, useEffect };

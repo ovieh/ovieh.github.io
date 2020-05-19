@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Ovieh Mosley</title>
@@ -16,7 +16,7 @@
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ovieh.com/post/hooks/</guid>
-      <description>I decided to create a project to familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles.</description>
+      <description>I decided to create a projectto familiarize myself with some newer additions to React. I built upon a previous full stack web app I created that uses Handlebars for the view layer. This new app uses some new features in React, such as Hooks and Concurrent React. The app scrapes the New York Times Technology page and displays a list of articles to user. It also allows the user to save articles and to comment on those articles.</description>
     </item>
     
     <item>
