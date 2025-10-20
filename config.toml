@@ -6,7 +6,7 @@ metaDataFormat = "yaml"
 pygmentsCodefences = true
 pygmentsStyle = "native"
 #disqusShortname = "XXX"
-googleAnalytics = "UA-104019397-1"
+googleAnalytics = "G-TM9G7HCDBJ"
 
 [Params]
   subtitle = "Brewing Up Code"
