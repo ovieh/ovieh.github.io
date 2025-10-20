@@ -4,30 +4,23 @@
     <title>ES6 on Ovieh Mosley</title>
     <link>https://ovieh.com/tags/es6/</link>
     <description>Recent content in ES6 on Ovieh Mosley</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 23 Jan 2018 14:41:23 -0500</lastBuildDate>
-    
-	<atom:link href="https://ovieh.com/tags/es6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://ovieh.com/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week Twenty</title>
       <link>https://ovieh.com/post/week-twenty/</link>
       <pubDate>Tue, 23 Jan 2018 14:41:23 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-twenty/</guid>
-      <description>This was our second week of covering React and one of our final weeks of learning new content. We covered the stuff necessary in making more featureful Single-Page Applications, AJAX calls, conditional rendering, and the use of React Router. As this was the final week before we began working on our Final Projects, the homework this week was optional. I am really glad I choose take it on.
-The previous week’s homework was considerably trivial use of React compared to this weeks.</description>
+      <description>&lt;p&gt;This was our second week of covering React and one of our final weeks of learning new content. We covered the stuff necessary in making more featureful Single-Page Applications, AJAX calls, conditional rendering, and the use of React Router. As this was the final week before we began working on our Final Projects, the homework this week was optional. I am really glad I choose take it on.&lt;/p&gt;&#xA;&lt;p&gt;The previous week’s homework was considerably trivial use of React compared to this weeks. Going through the awesome &lt;a href=&#34;https://reactjs.org/&#34;&gt;Reactjs Docs&lt;/a&gt;, as a class, we pretty much covered everything that is in the Getting Started section. And it is pretty interesting that that is essentially it for React functionality.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week Nineteen</title>
       <link>https://ovieh.com/post/week-nineteen/</link>
       <pubDate>Mon, 15 Jan 2018 16:27:56 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-nineteen/</guid>
-      <description>So this is where the fun started. React is such joy to work with. Having once source for truth makes a lot sense. I have been picking up ES6 &amp;amp; ES7 features for a while now, and now its interesting seeing things like object destruturing and spread and rest used in a library. I really was not having much fun working on the front end, until now. I guess its the way that problems are approached, from Reacts perspective.</description>
+      <description>&lt;p&gt;So this is where the fun started. React is such joy to work with. Having &lt;em&gt;once source for truth&lt;/em&gt; makes a lot sense. I have been picking up ES6 &amp;amp; ES7 features for a while now, and now its interesting seeing things like object destruturing and spread and rest used in a library. I really was not having much fun working on the front end, until now. I guess its the way that problems are approached, from Reacts perspective. And there&amp;rsquo;s something about keeping keeping a component&amp;rsquo;s markup, css, and logic in one place that I find really appealing. I can&amp;rsquo;t say exactly why.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,85 +4,65 @@
     <title>Node.js on Ovieh Mosley</title>
     <link>https://ovieh.com/tags/node.js/</link>
     <description>Recent content in Node.js on Ovieh Mosley</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Mon, 08 Jan 2018 11:57:51 -0500</lastBuildDate>
-    
-	<atom:link href="https://ovieh.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://ovieh.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week Eighteen</title>
       <link>https://ovieh.com/post/week-eighteen/</link>
       <pubDate>Mon, 08 Jan 2018 11:57:51 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-eighteen/</guid>
-      <description>This week we added another tool to our toolbox, MongoDB. And unlike MySQL, it does not care what you put in to it. It just accepts the data. Which is a blessing and a curse. To remedy this, there exists a project called Mongoose. Mongoose provides a MondoDB database with an ORM, which allows for validation. Since we previously learned Firebase, it was relatively easy to pick up Mongo. We just had to learn how to implement it with Node.</description>
+      <description>&lt;p&gt;This week we added another tool to our toolbox, &lt;a href=&#34;https://www.mongodb.com/&#34;&gt;MongoDB&lt;/a&gt;. And unlike MySQL, it does not care what you put in to it. It just accepts the data. Which is a blessing and a curse. To remedy this, there exists a project called &lt;a href=&#34;http://mongoosejs.com/&#34;&gt;Mongoose&lt;/a&gt;. Mongoose provides a MondoDB database with an ORM, which allows for validation. Since we previously learned Firebase, it was relatively easy to pick up Mongo. We just had to learn how to implement it with Node.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Weeks Sixteen &amp; Seventeen</title>
       <link>https://ovieh.com/post/week-sixteen-seventeen/</link>
       <pubDate>Wed, 20 Dec 2017 16:19:34 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-sixteen-seventeen/</guid>
-      <description>It has been a challenging last couple of weeks. We concurrently covered testing, both unit and functional, and completed our second group project. One of the toughest aspects of our group project is simply coming up with an idea for an application. We kicked around a few ideas, but eventually led drawing game, kind of like Pictionary, where one player has a clue and other player must guess what the drawer is, drawing.</description>
+      <description>&lt;p&gt;It has been a challenging last couple of weeks. We concurrently covered testing, both unit and functional, and completed our second group project. One of the toughest aspects of our group project is simply coming up with an idea for an application. We kicked around a few ideas, but eventually led drawing game, kind of like Pictionary, where one player has a clue and other player must guess what the drawer is, &lt;em&gt;drawing&lt;/em&gt;. We came across WebSockets, which allows for peer to peer communication between over TCP. This would allow us to share what the person is drawing on their Canvas. We used Socket.io, which implements WebSockets and ties in nicely with Node. Also using Socket.io, I implemented a chat function, which was also used as a method the messages that control the functions of the game.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week Fifthteen</title>
       <link>https://ovieh.com/post/week-fifthteen/</link>
       <pubDate>Sun, 03 Dec 2017 15:15:40 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-fifthteen/</guid>
-      <description>This was a short week in terms of new material, as it was running concurrently with the planning of our second group project. We build off the knowledge we gained last week in building our own ORM, and used an off the shelf model, Sequelize. I found Sequelize itself to be pretty easy to use, since it is promise based. Dealing with callbacks can get messy. Our project this week was merely to refactor last week&amp;rsquo;s project, were we created are own ORM, using Sequelize.</description>
+      <description>&lt;p&gt;This was a short week in terms of new material, as it was running concurrently with the planning of our second group project. We build off the knowledge we gained last week in building our own ORM, and used an off the shelf model, &lt;!-- raw HTML omitted --&gt;Sequelize&lt;!-- raw HTML omitted --&gt;. I found Sequelize itself to be pretty easy to use, since it is promise based. Dealing with callbacks can get messy. Our project this week was merely to refactor last week&amp;rsquo;s project, were we created are own ORM, using Sequelize.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week Fourteen</title>
       <link>https://ovieh.com/post/week-fourteen/</link>
       <pubDate>Sun, 26 Nov 2017 10:20:22 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-fourteen/</guid>
-      <description>This week we dove deeper into Express and covered Handlebars.js, a html templating engine. HTML templating provides a bridge between our JavaScript and our content, allowing us to decouple our HTML structure of the data within. Handlebars provides pretty easy to understand syntax and even allows block expression. As an example, let say I had list of burgers I want to iterate through and add each burger as a list item, it would look like this:</description>
+      <description>&lt;p&gt;This week we dove deeper into Express and covered &lt;!-- raw HTML omitted --&gt;Handlebars.js&lt;!-- raw HTML omitted --&gt;, a html templating engine. HTML templating provides a bridge between our JavaScript and our content, allowing us to decouple our HTML structure of the data within. Handlebars provides pretty easy to understand syntax and even allows block expression. As an example, let say I had list of burgers I want to iterate through and add each burger as a list item, it would look like this:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week Thirteen</title>
       <link>https://ovieh.com/post/week-thirteen/</link>
       <pubDate>Mon, 20 Nov 2017 13:29:51 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-thirteen/</guid>
-      <description>We are starting to put it all together. Our project this week was to create a friend recommendation app not dissimilar from Tinder. It is almost a full-stack app, it doesn’t quite have data persistence through a database. Class is starting to get complicated, but when you step back and think about things, the concepts make more sense. When you are running a web server, it makes perfect sense that your server won’t serve something it has no idea about, such as static files, unless you explicitly do so.</description>
+      <description>&lt;p&gt;We are starting to put it all together. Our project this week was to create a friend recommendation app not dissimilar from Tinder. It is &lt;em&gt;almost&lt;/em&gt; a full-stack app, it doesn’t quite have data persistence through a database. Class is starting to get complicated, but when you step back and think about things, the concepts make more sense. When you are running a web server, it makes perfect sense that your server won’t serve something it has no idea about, such as static files, unless you explicitly do so. We had been using Github Pages, which is perfectly fine for serving static sites and does all of the heavy lifting in terms of hosting a site. Setting up route with Express.js is actually pretty simple. And for our assignment, we also set up a rudimentary API to store and access data locally.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week Twelve</title>
       <link>https://ovieh.com/post/week-twelve/</link>
       <pubDate>Sat, 11 Nov 2017 21:47:12 -0500</pubDate>
-      
       <guid>https://ovieh.com/post/week-twelve/</guid>
-      <description>This last week I became reaquainted with MySQL. It’s not so bad. The syntax is relatively straightforward. The keywords are close to to natural language. This was another week getting familiar with the power of Node.js. It is really easy to integrate some really powerful tools.
-Our assignment this week was to create backend for store using MySQL running on Node.js.Working with MySQL was pretty straightforward, updating, selecting from, and inserting into the database.</description>
+      <description>&lt;p&gt;This last week I became reaquainted with MySQL. It’s not so bad. The syntax is relatively straightforward. The keywords are close to to natural language. This was another week getting familiar with the power of Node.js. It is really easy to integrate some really powerful tools.&lt;/p&gt;&#xA;&lt;p&gt;Our assignment this week was to create backend for store using MySQL running on Node.js.Working with MySQL was pretty straightforward, updating, selecting from, and inserting into the database. The challenge I faced this week was dealing with asynchronous JavaScript. I found some of my function calls would sort of get take effect at the same time, or at some unforeseen time. I dealt with this my implementing callbacks. I am going to look into other ways of tackling this problem. The new hotness in ES7 is Async / Await, which offers solutions with asynchronous code. Async actually implements Promises, which was the last great hope with dealing with funny timing. So before I tackle async / await, I need to get a handle on promises.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week Eleven</title>
       <link>https://ovieh.com/post/week-eleven/</link>
       <pubDate>Wed, 01 Nov 2017 16:02:48 -0400</pubDate>
-      
       <guid>https://ovieh.com/post/week-eleven/</guid>
-      <description>This week was surprisingly challenging. What makes this program interesting is that we often are giving just enough tools to complete assignment. The examples we covered in class were not as complex as the assignment turned out to be. Albeit, it could be me overcomplicating things. I tried to abstract this project as completely as possible. I also tried to cover every edge case, every error.
-This weeks project was a bit of remix.</description>
+      <description>&lt;p&gt;This week was surprisingly challenging. What makes this program interesting is that we often are giving just enough tools to complete assignment. The examples we covered in class were not as complex as the assignment turned out to be. Albeit, it could be me overcomplicating things. I tried to abstract this project as completely as possible. I also tried to cover every edge case, every error.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/xDQ3Oql1BN54c/giphy.gif&#34; alt=&#34;confused&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This weeks project was a bit of remix. Our third week project was to produce a Hangman game in Javascript, using the browser for user input. This week, we did the same, only using Node.js. We were also to include constructors. My first roadblock came early on, trying to change an array in a different class. It took me a day of thinking, but I realized that I should not try and change the value of an array, just change the value of a reference to that array. Side-efects.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Week Ten</title>
       <link>https://ovieh.com/post/week-ten/</link>
       <pubDate>Mon, 23 Oct 2017 13:44:54 -0400</pubDate>
-      
       <guid>https://ovieh.com/post/week-ten/</guid>
-      <description>This has been my favorite week of learning yet. This was our introduction to Node.js, which is a JavaScript runtime engine. What that all means is that it allow us to use JavaScript outside of the browser. That opens up doors. Prior to Node.js developers had to learn a second language for the backend, such as PHP or Java. Now, no need. With just one language a developer can handle the tasks of both the front and backend of the stack.</description>
+      <description>&lt;p&gt;This has been my favorite week of learning yet. This was our introduction to &lt;!-- raw HTML omitted --&gt;Node.js&lt;!-- raw HTML omitted --&gt;, which is a JavaScript runtime engine. What that all means is that it allow us to use JavaScript outside of the browser. That opens up doors.&#xA;&lt;img src=&#34;https://media.giphy.com/media/xjqNH3Bml1gTC/giphy.gif&#34; alt=&#34;Obama Kicking Open Door!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Prior to Node.js developers had to learn a second language for the backend, such as PHP or Java. Now, no need. With just one language a developer can handle the tasks of both the front and backend of the stack.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,29 +4,23 @@
     <title>Pages on Ovieh Mosley</title>
     <link>https://ovieh.com/page/</link>
     <description>Recent content in Pages on Ovieh Mosley</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>en</language>
     <lastBuildDate>Thu, 02 Nov 2017 08:46:56 -0400</lastBuildDate>
-    
-	<atom:link href="https://ovieh.com/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://ovieh.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
       <link>https://ovieh.com/page/projects/</link>
       <pubDate>Thu, 02 Nov 2017 08:46:56 -0400</pubDate>
-      
       <guid>https://ovieh.com/page/projects/</guid>
-      <description>DocumentFeel to ReelA movie recommendation app that uses an image from the user&#39;s webcam and Azure&#39;s Emotion API to deliver emotionally specific movie recommendations. Live Github CodeNectorA Pair Programming App utilzing React, Redux, &amp; Socket.io. It allows multiple users to share the same JavaScript development environment and for the safe execution of code in the browser. Live Github Devour a BurgerThis is Burger logger using Node.</description>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xA;&lt;head&gt;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;  &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;ie=edge&#34;&gt;&#xA;  &lt;title&gt;Document&lt;/title&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;  &lt;div class=&#34;row&#34;&gt;&#xA;    &lt;div class=&#34;col-lg-6 portfolio-item&#34;&gt;&#xA;      &lt;div class=&#34;card h-100&#34;&gt;&#xA;        &lt;a href=&#34;https://feel-to-reel.firebaseapp.com/&#34;&gt;&lt;img class=&#34;card-img-top&#34; src=&#34;https://ovieh.com/img/feel-to-reel.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&#xA;        &lt;div class=&#34;card-body&#34;&gt;&#xA;          &lt;h4 class=&#34;card-title&#34;&gt;&#xA;            &lt;a href=&#34;https://feel-to-reel.firebaseapp.com/&#34; target=&#34;_blank&#34;&gt;Feel to Reel&lt;/a&gt;&#xA;          &lt;/h4&gt;&#xA;          &lt;p class=&#34;card-text&#34;&gt;A movie recommendation app that uses an image from the user&#39;s webcam and Azure&#39;s Emotion API to deliver emotionally specific movie recommendations. &lt;a href=&#34;https://feel-to-reel.firebaseapp.com/&#34; target=&#34;_blank&#34;&gt;Live&lt;/a&gt; &lt;a href=&#34;https://github.com/ovieh/Feel-to-Reel&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; &lt;/p&gt;&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;col-lg-6 portfolio-item&#34;&gt;&#xA;      &lt;div class=&#34;card h-100&#34;&gt;&#xA;        &lt;a href=&#34;https://codenector.herokuapp.com/&#34;&gt;&lt;img class=&#34;card-img-top&#34; src=&#34;https://ovieh.com/img/codenector.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&#xA;        &lt;div class=&#34;card-body&#34;&gt;&#xA;          &lt;h4 class=&#34;card-title&#34;&gt;&#xA;            &lt;a href=&#34;https://codenector.herokuapp.com/&#34; target=&#34;_blank&#34;&gt;CodeNector&lt;/a&gt;&#xA;          &lt;/h4&gt;&#xA;          &lt;p class=&#34;card-text&#34;&gt;A Pair Programming App utilzing React, Redux, &amp; Socket.io. It allows multiple users to share the same JavaScript development environment and for the safe execution of code in the browser. &lt;a href=&#34;https://codenector.herokuapp.com/&#34; target=&#34;_blank&#34;&gt;Live&lt;/a&gt; &lt;a href=&#34;https://github.com/CodeNector/CodeNector&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; &lt;/p&gt;&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;col-lg-6 portfolio-item&#34;&gt;&#xA;      &lt;div class=&#34;card h-100&#34;&gt;&#xA;        &lt;a href=&#34;https://devouraburger.herokuapp.com/&#34;&gt;&lt;img class=&#34;card-img-top&#34; src=&#34;https://ovieh.com/img/devour-a-burger.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&#xA;        &lt;div class=&#34;card-body&#34;&gt;&#xA;          &lt;h4 class=&#34;card-title&#34;&gt;&#xA;            &lt;a href=&#34;https://devouraburger.herokuapp.com/&#34;&gt;Devour a Burger&lt;/a&gt;&#xA;          &lt;/h4&gt;&#xA;          &lt;p class=&#34;card-text&#34;&gt;This is Burger logger using Node.js, MySQL, Express, Handlebars, and a homemade ORM. &lt;a href=&#34;https://devouraburger.herokuapp.com/&#34; target=&#34;_blank&#34;&gt;Live&lt;/a&gt; &lt;a href=&#34;https://github.com/ovieh/burger&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://ovieh.com/page/about/</link>
       <pubDate>Fri, 04 Aug 2017 23:05:06 -0400</pubDate>
-      
       <guid>https://ovieh.com/page/about/</guid>
-      <description>Ovieh is a London-based full-stack web developer with a strong knowledge of emerging technology and cutting-edge industry trends. The Detroit native possesses the grit and savvy to face challenges head on with out-the-box solutions. His natural knack for coding and processing complex systems combined with his experience with MERN stack result in high quality and high performing web applications. In his free time, Ovieh is an avid brewer and practices martial arts.</description>
+      <description>&lt;p&gt;Ovieh is a London-based full-stack web developer with a strong knowledge of emerging technology and cutting-edge industry trends. The Detroit native possesses the grit and savvy to face challenges head on with out-the-box solutions. His natural knack for coding and processing complex systems combined with his experience with MERN stack result in high quality and high performing web applications. In his free time, Ovieh is an avid brewer and practices martial arts.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
