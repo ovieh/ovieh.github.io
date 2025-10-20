@@ -104,3 +104,5 @@ desc = "Photo by me"
     disable = false
     enableDNT = false
     simple = false
+
+ignoreLogs = ["deprecated"]
