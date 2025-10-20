@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bootstrap on Ovieh Mosley</title>
-    <link>https://ovieh.com/tags/bootstrap/</link>
+    <link>http://localhost:1313/tags/bootstrap/</link>
     <description>Recent content in Bootstrap on Ovieh Mosley</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 26 Aug 2017 09:40:33 -0400</lastBuildDate>
-    <atom:link href="https://ovieh.com/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week Two, Part 2</title>
-      <link>https://ovieh.com/post/week2-2/</link>
+      <link>http://localhost:1313/post/week2-2/</link>
       <pubDate>Sat, 26 Aug 2017 09:40:33 -0400</pubDate>
-      <guid>https://ovieh.com/post/week2-2/</guid>
+      <guid>http://localhost:1313/post/week2-2/</guid>
       <description>&lt;p&gt;I submitted my homework. I am not thrilled with my work. I spent many hours trying hacking away at the Bootstrap-Portfolio trying to format it to spec. My biggest isssue is that the breakpoints in our spec are not the same as the breakpoints that &lt;a href=&#34;https://getbootstrap.com/docs/4.0/layout/grid/&#34; title=&#34;Bootcamp link&#34;&gt;Bootstrap 4&lt;/a&gt; uses. The easiest way to have fixed this would have been to customized my own downloaded version of Bootstrap by using Sass, which is something that seemed overly complicated at the time. What I wound up doing was implementing media queries, something I did not initially want to implement, since it seems counter to the point of using Bootstrap.&lt;/p&gt;</description>
     </item>
   </channel>

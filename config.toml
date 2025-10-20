@@ -3,8 +3,6 @@ DefaultContentLanguage = "en"
 title = "Ovieh Mosley"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
-pygmentsCodefences = true
-pygmentsStyle = "native"
 #disqusShortname = "XXX"
 
 [Params]
@@ -30,7 +28,7 @@ pygmentsStyle = "native"
 src = "img/manhattan.jpg"
 desc = "Photo by me"
 
-[Author]
+[Params.Author]
   name = "ovieh.com"
  # email = "youremail@domain.com"
   #facebook = "username"
@@ -108,4 +106,9 @@ desc = "Photo by me"
   [services.googleAnalytics]
     id = "G-TM9G7HCDBJ"
 
-ignoreLogs = ["deprecated"]
+[markup]
+  [markup.highlight]
+    codeFences = true
+    style = "dracula"
+    noClasses = true
+    guessSyntax = true
