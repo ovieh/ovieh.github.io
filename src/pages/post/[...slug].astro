@@ -1,0 +1,213 @@
+---
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => data.draft !== true);
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const title = `${post.data.title} | Ovieh Mosley`;
+const description = post.data.description || "Personal blog post by Ovieh Mosley.";
+const image = post.data.image || "/img/profile.jpg";
+
+const formattedDate = new Date(post.data.date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: '2-digit',
+});
+---
+
+<BaseLayout title={title} description={description} image={image} article={true}>
+  <Header slot="header" />
+  
+  <article class="post-article">
+    <header class="post-header">
+      <h1 class="post-main-title font-serif">{post.data.title}</h1>
+      
+      <div class="blueprint-meta font-mono">
+        <div class="meta-item">
+          <span class="meta-label">DATE</span>
+          <time datetime={post.data.date.toISOString()}>{formattedDate}</time>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">AUTHOR</span>
+          <span>{post.data.author || 'Ovieh Mosley'}</span>
+        </div>
+        <div class="meta-item tags-item">
+          <span class="meta-label">TAGS</span>
+          <div class="post-tags">
+            {post.data.tags.map((tag: string) => (
+              <a href={`/tags/${tag}/`} class="tag-link">[{tag}]</a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="post-content">
+      <Content />
+    </div>
+
+    <footer class="post-article-footer">
+      <div class="share-section">
+        <h3 class="font-serif">SYSTEM_MSG: EOF</h3>
+        <p class="font-mono">If this execution was successful, broadcast it.</p>
+        <div class="share-buttons font-mono">
+          <a href={`https://twitter.com/intent/tweet?text=${title}&url=${Astro.url}`} target="_blank" rel="noopener noreferrer" class="share-btn">
+            [ BROADCAST_X ]
+          </a>
+          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${Astro.url}`} target="_blank" rel="noopener noreferrer" class="share-btn">
+            [ LINK_IN ]
+          </a>
+        </div>
+      </div>
+    </footer>
+  </article>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .post-article {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 4rem 1rem 8rem;
+  }
+
+  .post-header {
+    margin-bottom: 5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 3rem;
+  }
+
+  .post-main-title {
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    line-height: 1;
+    margin-bottom: 3rem;
+    letter-spacing: -0.02em;
+    color: var(--heading-color);
+    max-width: 15ch;
+  }
+
+  .blueprint-meta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    background: rgba(10, 10, 10, 0.5);
+  }
+
+  .meta-item {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+  }
+
+  .meta-label {
+    font-size: 0.75rem;
+    color: var(--accent-color);
+    letter-spacing: 0.1em;
+  }
+
+  .post-tags {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .tag-link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: var(--transition);
+  }
+
+  .tag-link:hover {
+    color: var(--accent-color);
+  }
+
+  .post-article-footer {
+    margin-top: 8rem;
+  }
+
+  .share-section {
+    border: 1px dashed var(--border-color);
+    padding: 4rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .share-section::before, .share-section::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--bg-color);
+    border: 1px solid var(--accent-color);
+  }
+  
+  .share-section::before { top: -5px; left: -5px; }
+  .share-section::after { bottom: -5px; right: -5px; }
+
+  .share-section h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--heading-color);
+  }
+  
+  .share-section p {
+    color: var(--accent-color);
+    opacity: 0.8;
+    margin-bottom: 2rem;
+  }
+
+  .share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .share-btn {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: var(--transition);
+    font-size: 1rem;
+  }
+
+  .share-btn:hover {
+    color: var(--accent-color);
+  }
+
+  @media (max-width: 768px) {
+    .blueprint-meta {
+      grid-template-columns: 1fr;
+    }
+    .share-section {
+      padding: 2rem 1rem;
+    }
+    .share-buttons {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+</style>

@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PostCard from '../components/PostCard.astro';
+
+const archivedPosts = (await getCollection('posts', ({ data }) => {
+  return data.draft !== true && data.archived === true;
+})).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const title = 'Archive | Ovieh Mosley';
+const description = 'Archived writing from Ovieh Mosley, including bootcamp reflections and earlier technical notes.';
+---
+
+<BaseLayout title={title} description={description}>
+  <Header slot="header" />
+
+  <section class="archive-hero">
+    <p class="eyebrow">Archive</p>
+    <h1>Earlier Writing</h1>
+    <p class="archive-copy">
+      Bootcamp notes, project retrospectives, and earlier technical writing from the first phase of my software career.
+    </p>
+  </section>
+
+  <section class="archive-section">
+    <div class="section-header">
+      <h2 class="section-title">Archived Posts</h2>
+      <p class="section-meta">{archivedPosts.length} posts</p>
+    </div>
+
+    <div class="archive-grid">
+      {archivedPosts.map((post) => (
+        <PostCard post={post} />
+      ))}
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .archive-hero {
+    padding: 4rem 0 2rem;
+    max-width: 48rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.75rem;
+    color: var(--accent-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+  }
+
+  .archive-copy {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    opacity: 0.82;
+  }
+
+  .archive-section {
+    padding: 1rem 0 4rem;
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-title {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .section-meta {
+    margin: 0;
+    color: var(--accent-color);
+    font-weight: 600;
+  }
+
+  .archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  @media (max-width: 640px) {
+    .section-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>

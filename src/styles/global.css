@@ -1,0 +1,201 @@
+:root {
+  /* High Contrast / Technical Editorial Theme */
+  --bg-color: #0a0a0a;
+  --text-color: #e0e0e0;
+  --accent-color: #00FF41; /* Neon Green */
+  --accent-soft: rgba(0, 255, 65, 0.1);
+  --card-bg: #0f0f0f;
+  --border-color: #333333;
+  --heading-color: #ffffff;
+  
+  --font-sans: 'Syne Variable', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-mono: 'Fira Code Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  
+  --max-width: 1000px;
+  --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Technical Markdown Content Styles */
+.post-content {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-content p {
+  margin-bottom: 1.75rem;
+  opacity: 0.9;
+}
+
+.post-content ul, .post-content ol {
+  margin-bottom: 1.75rem;
+  padding-left: 2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-content li::marker {
+  color: var(--accent-color);
+  font-family: var(--font-mono);
+}
+
+/* Blockquotes */
+.post-content blockquote {
+  border-left: 2px solid var(--accent-color);
+  padding: 1.5rem 0 1.5rem 2.5rem;
+  margin: 3rem 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: var(--heading-color);
+  position: relative;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* Links */
+.post-content a {
+  color: var(--accent-color);
+  border-bottom: 1px dashed var(--accent-color);
+}
+
+.post-content a:hover {
+  background: var(--accent-soft);
+  border-bottom-style: solid;
+}
+
+/* Images */
+.post-content img {
+  width: 100%;
+  margin: 3rem 0;
+  border: 1px solid var(--border-color);
+  filter: grayscale(100%);
+  transition: var(--transition);
+}
+
+.post-content img:hover {
+  filter: grayscale(0%);
+}
+
+/* Code Blocks */
+pre, .post-content pre {
+  background: #050505 !important;
+  padding: 1.5rem;
+  border-radius: 0 !important;
+  border: 1px solid var(--border-color) !important;
+  overflow-x: auto;
+  margin: 2.5rem 0;
+  max-width: 100%;
+}
+
+code, .post-content code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+/* Inline code */
+p code, li code, .post-content p code, .post-content li code {
+  background: var(--accent-soft);
+  color: var(--accent-color);
+  padding: 0.2em 0.4em;
+  border: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+pre code, .post-content pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border: none;
+}
+
+/* Scrollbars */
+pre::-webkit-scrollbar {
+  height: 6px;
+}
+pre::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+pre::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+}
+pre::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
+
+/* Utilities */
+.text-accent {
+  color: var(--accent-color);
+}
+.font-serif {
+  font-family: var(--font-serif);
+}
+.font-mono {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Animations */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-reveal {
+  animation: reveal-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}

@@ -1,0 +1,227 @@
+---
+export const prerender = true;
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const title = "Projects | Ovieh Mosley";
+const description = "A selection of my recent open-source projects and professional work.";
+
+const projects = [
+  {
+    id: "feel-to-reel",
+    title: "Feel to Reel",
+    description: "A movie recommendation app that uses an image from the user's webcam and Azure's Emotion API to deliver emotionally specific movie recommendations.",
+    url: "https://feel-to-reel.firebaseapp.com/",
+    github: "https://github.com/ovieh/Feel-to-Reel",
+    image: "/img/feel-to-reel.png",
+    stack: ["React", "Azure", "Firebase"]
+  },
+  {
+    id: "codenector",
+    title: "CodeNector",
+    description: "A Pair Programming App utilizing React, Redux, & Socket.io. It allows multiple users to share the same JavaScript development environment.",
+    url: "https://codenector.herokuapp.com/",
+    github: "https://github.com/CodeNector/CodeNector",
+    image: "/img/codenector.png",
+    stack: ["React", "Redux", "Socket.io"]
+  },
+  {
+    id: "burger",
+    title: "Devour a Burger",
+    description: "This is Burger logger using Node.js, MySQL, Express, Handlebars, and a homemade ORM.",
+    url: "https://devouraburger.herokuapp.com/",
+    github: "https://github.com/ovieh/burger",
+    image: "/img/devour-a-burger.png",
+    stack: ["Node.js", "MySQL", "Express"]
+  },
+  {
+    id: "tech-scraper",
+    title: "Tech News Scraper",
+    description: "Site scraper using Node, Express, Handlebars, Mongoose, and Cheerio.",
+    url: "https://mongoosenews.herokuapp.com/",
+    github: "https://github.com/ovieh/Tech-News-Scraper",
+    image: "/img/tech-news.png",
+    stack: ["Node", "Mongoose", "Cheerio"]
+  },
+  {
+    id: "memory-game",
+    title: "React Memory Game",
+    description: "Memory Game demonstrating state management and conditional rendering with React.",
+    url: "http://reactmemorygame.netlify.com/",
+    github: "https://github.com/ovieh/React-Memory-Game",
+    image: "/img/memory-game.png",
+    stack: ["React", "CSS"]
+  },
+  {
+    id: "doodle-buddy",
+    title: "Doodle Buddy",
+    description: "Doodle Buddy is a group drawing game utilizing MySQL, Express, Handlebars, Node, Sequelize, and Socket.io.",
+    url: "https://doodlebuddy.herokuapp.com/",
+    github: "https://github.com/Doodle-Buddy/Doodle-Buddy",
+    image: "/img/doodle-buddy.png",
+    stack: ["Node", "MySQL", "Socket.io"]
+  }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Header slot="header" />
+  
+  <section class="projects-container">
+    <header class="projects-hero">
+      <p class="eyebrow font-mono text-accent animate-reveal" style="animation-delay: 0.1s;">// REPOSITORY_V2</p>
+      <h1 class="font-serif animate-reveal" style="animation-delay: 0.2s;">Projects & <span class="italic-serif text-accent">Experiments</span></h1>
+    </header>
+
+    <div class="projects-list">
+      {projects.map((project, index) => (
+        <article class="project-row animate-reveal" style={`animation-delay: ${0.1 * index + 0.3}s`}>
+          <div class="project-id font-mono">0{index + 1}</div>
+          
+          <div class="project-visual">
+            <img src={project.image} alt={project.title} class="project-img" />
+          </div>
+
+          <div class="project-info">
+            <h2 class="project-title font-serif">{project.title}</h2>
+            <div class="project-stack font-mono">
+              {project.stack.map(tech => (
+                <span class="tech-tag">[{tech}]</span>
+              ))}
+            </div>
+            <p class="project-desc">{project.description}</p>
+            
+            <div class="project-actions font-mono">
+              <a href={project.url} target="_blank" rel="noopener noreferrer" class="action-link">[ LIVE_DEMO ]</a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer" class="action-link">[ SOURCE_CODE ]</a>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .projects-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 6rem 1rem;
+  }
+
+  .projects-hero {
+    margin-bottom: 6rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 3rem;
+  }
+
+  .eyebrow {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 7vw, 6rem);
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+  }
+
+  .italic-serif {
+    font-style: italic;
+  }
+
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-row {
+    display: grid;
+    grid-template-columns: 80px 350px 1fr;
+    gap: 4rem;
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition);
+  }
+
+  .project-row:hover {
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .project-id {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    opacity: 0.5;
+  }
+
+  .project-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border: 1px solid var(--border-color);
+    filter: grayscale(100%);
+    transition: var(--transition);
+  }
+
+  .project-row:hover .project-img {
+    filter: grayscale(0%);
+    border-color: var(--accent-color);
+  }
+
+  .project-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+
+  .project-stack {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+  }
+
+  .project-desc {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    max-width: 50ch;
+  }
+
+  .project-actions {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .action-link {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: var(--transition);
+  }
+
+  .action-link:hover {
+    color: var(--accent-color);
+  }
+
+  @media (max-width: 900px) {
+    .project-row {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 3rem 0;
+    }
+    .project-id {
+      display: none;
+    }
+    .project-visual {
+      max-width: 500px;
+    }
+  }
+</style>

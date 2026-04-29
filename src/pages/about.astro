@@ -1,0 +1,167 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "About Ovieh Mosley";
+const description =
+	"Ovieh Mosley is a Senior Product Engineer focused on scalable SaaS platforms, real-time systems, and product-driven full-stack engineering.";
+---
+
+<BaseLayout title={title} description={description}>
+  <Header slot="header" />
+  
+  <article class="about-article">
+    <header class="about-header">
+      <div class="profile-grid">
+        <div class="image-area">
+          <img src="/img/profile.jpg" alt="Ovieh Mosley" class="about-img" />
+        </div>
+        <div class="copy-area">
+          <p class="eyebrow font-mono text-accent">// IDENTITY_FILE</p>
+          <h1 class="font-serif">Senior Product Engineer</h1>
+          <p class="lede">I build product systems that balance user impact with durable engineering.</p>
+        </div>
+      </div>
+    </header>
+    
+    <div class="about-content blueprint-grid">
+      <div class="main-text">
+        <p>
+          I am a Senior Product Engineer and US Navy veteran with more than eight years of experience building SaaS platforms, real-time systems, and product infrastructure. My work sits at the intersection of backend architecture and user-facing product delivery, which means I care as much about reliability, performance, and system boundaries as I do about whether the feature actually improves the experience for the people using it.
+        </p>
+        <p>
+          Most of my recent work has been in 0 to 1 and early-scale environments. At Waasil.io, I am helping build a multi-tenant WhatsApp CRM on an edge-first stack with Cloudflare Workers, D1, and R2, along with AI summarization workflows, Stripe billing, and real-time collaboration features. Before that, I led engineering work at Dishable and Snoop, where I shipped cross-platform products, built search and data systems, stood up Next.js backend-for-frontend layers, and helped scale platforms that reached more than one million total users.
+        </p>
+        <p>
+          My technical focus is full-stack product engineering with TypeScript, Node.js, React, Next.js, and cloud-native systems. I am especially interested in roles where strong product judgment matters: shaping platform capabilities, improving developer velocity, and building software that can handle real operational load without losing clarity at the user level.
+        </p>
+      </div>
+
+      <aside class="meta-sidebar font-mono">
+        <div class="sidebar-box">
+          <span class="box-label">LOC</span>
+          <span>DFW, Texas</span>
+        </div>
+        <div class="sidebar-box">
+          <span class="box-label">VET</span>
+          <span>US Navy</span>
+        </div>
+        <div class="sidebar-box">
+          <span class="box-label">EXP</span>
+          <span>8+ Years</span>
+        </div>
+      </aside>
+    </div>
+  </article>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .about-article {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 6rem 1rem;
+  }
+
+  .about-header {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 4rem;
+  }
+
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .about-img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 1px solid var(--accent-color);
+    filter: grayscale(100%);
+    transition: var(--transition);
+  }
+  
+  .about-img:hover {
+    filter: grayscale(0%);
+  }
+
+  .eyebrow {
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1;
+    margin-bottom: 1.5rem;
+  }
+
+  .lede {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+
+  .blueprint-grid {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 4rem;
+  }
+
+  .main-text p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+
+  .meta-sidebar {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+  }
+
+  .sidebar-box {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .box-label {
+    color: var(--accent-color);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+  }
+
+  @media (max-width: 900px) {
+    .profile-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .about-img {
+      max-width: 300px;
+    }
+    .blueprint-grid {
+      grid-template-columns: 1fr;
+    }
+    .meta-sidebar {
+      flex-direction: row;
+      border-left: none;
+    }
+    .sidebar-box {
+      flex: 1;
+      border-left: 1px solid var(--border-color);
+    }
+  }
+</style>

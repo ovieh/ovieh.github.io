@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const allPosts = await getCollection('posts', ({ data }) => data.draft !== true);
+const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())].sort();
+
+const title = "Topics & Tags | Ovieh Mosley";
+const description = "Browse articles by topic, ranging from React and Node to full-stack architecture.";
+---
+
+<BaseLayout title={title} description={description}>
+  <Header slot="header" />
+  
+  <section class="tags-section">
+    <div class="tags-header">
+      <h1>Explore by Topic</h1>
+      <p class="subtitle">Looking for something specific? Dive into the tags below.</p>
+    </div>
+
+    <div class="tags-cloud">
+      {tags.map((tag) => {
+        const count = allPosts.filter(p => p.data.tags.includes(tag)).length;
+        return (
+          <a href={`/tags/${tag}/`} class="tag-card card">
+            <span class="tag-name">#{tag}</span>
+            <span class="tag-count">{count} {count === 1 ? 'post' : 'posts'}</span>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .tags-section {
+    padding: 3rem 0 6rem;
+    min-height: 50vh;
+  }
+
+  .tags-header {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    opacity: 0.8;
+  }
+
+  .tags-cloud {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .tag-card {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    transition: var(--transition);
+  }
+
+  .tag-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-color);
+  }
+
+  .tag-count {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    font-weight: 500;
+  }
+
+  .tag-card:hover {
+    background-color: var(--accent-soft);
+    border-color: var(--accent-color);
+    transform: translateY(-5px);
+  }
+
+  @media (max-width: 600px) {
+    .tags-cloud {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

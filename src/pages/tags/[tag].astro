@@ -1,0 +1,110 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PostCard from '../../components/PostCard.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts', ({ data }) => data.draft !== true);
+  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allPosts.filter((post) =>
+      post.data.tags.includes(tag)
+    );
+    return {
+      params: { tag },
+      props: { posts: filteredPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()) },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+
+const title = `Articles tagged with #${tag} | Ovieh Mosley`;
+const description = `A collection of articles covering ${tag} and related web development topics.`;
+---
+
+<BaseLayout title={title} description={description}>
+  <Header slot="header" />
+  
+  <section class="tag-page">
+    <div class="tag-header">
+      <a href="/tags" class="back-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        All Tags
+      </a>
+      <h1 class="tag-title">Articles tagged with <span class="text-accent">#{tag}</span></h1>
+      <p class="subtitle">Found {posts.length} {posts.length === 1 ? 'article' : 'articles'}.</p>
+    </div>
+
+    <div class="blog-grid">
+      {posts.map((post) => (
+        <PostCard post={post} />
+      ))}
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>
+
+<style>
+  .tag-page {
+    padding: 3rem 0;
+  }
+
+  .tag-header {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: var(--accent-soft);
+    transition: var(--transition);
+  }
+
+  .back-link:hover {
+    transform: translateX(-4px);
+  }
+
+  .tag-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--heading-color);
+  }
+
+  .text-accent {
+    color: var(--accent-color);
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    .tag-title {
+      font-size: 1.75rem;
+    }
+  }
+</style>

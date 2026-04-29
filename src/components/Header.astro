@@ -1,0 +1,125 @@
+---
+const navItems = [
+  { name: 'Blog', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Tags', href: '/tags' },
+  { name: 'Archive', href: '/archive' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="technical-header">
+  <div class="nav-container">
+    <a href="/" class="logo">
+      <div class="logo-mark font-mono">OM</div>
+      <span class="logo-text">Ovieh Mosley</span>
+    </a>
+    
+    <nav class="nav-links">
+      {navItems.map((item) => (
+        <a 
+          href={item.href} 
+          class:list={['nav-link', 'font-mono', { active: currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href)) }]} 
+        >
+          {item.name}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<style>
+  .technical-header {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .logo-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .logo-text {
+    color: var(--heading-color);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    position: relative;
+    padding: 0.5rem 0;
+  }
+
+  .nav-link::before {
+    content: '>';
+    position: absolute;
+    left: -1rem;
+    color: var(--accent-color);
+    opacity: 0;
+    transition: var(--transition);
+    transform: translateX(-5px);
+  }
+
+  .nav-link:hover::before,
+  .nav-link.active::before {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .nav-link.active {
+    color: var(--accent-color);
+  }
+
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+    
+    .nav-links {
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    
+    .nav-link::before {
+      display: none;
+    }
+  }
+</style>
