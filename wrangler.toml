@@ -1,0 +1,6 @@
+name = "ovieh-blog"
+# Set this to today's date
+compatibility_date = "2026-04-03"
+
+[assets]
+directory = "./dist"
