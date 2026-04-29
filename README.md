@@ -1,43 +1,114 @@
-# Astro Starter Kit: Minimal
+# ovieh.com
+
+Personal site and writing portfolio for Ovieh Mosley, built with Astro and deployed on Cloudflare.
+
+The site combines a portfolio, long-form technical writing, archived bootcamp-era posts, and project pages under the `ovieh.com` domain.
+
+## Stack
+
+- Astro 6
+- Cloudflare adapter for Astro
+- Cloudflare Workers / Wrangler deployment
+- Markdown content collections for posts
+- RSS generation via `@astrojs/rss`
+
+## Requirements
+
+- Node.js `>=22.12.0`
+- `pnpm`
+
+## Getting Started
+
+Install dependencies:
 
 ```sh
-npm create astro@latest -- --template minimal
+pnpm install
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Start the local development server:
 
-## 🚀 Project Structure
+```sh
+pnpm dev
+```
 
-Inside of your Astro project, you'll see the following folders and files:
+Create a production build:
+
+```sh
+pnpm build
+```
+
+Preview the production build locally:
+
+```sh
+pnpm preview
+```
+
+## Project Structure
 
 ```text
 /
-├── public/
+├── public/                  # Static assets
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/          # Shared UI pieces like header, footer, and post cards
+│   ├── content/posts/       # Markdown blog posts
+│   ├── layouts/             # Shared page shell and metadata
+│   ├── pages/               # Route files
+│   ├── styles/              # Global styling and design tokens
+│   └── content.config.ts    # Content collection schema
+├── astro.config.mjs         # Astro config and canonical site URL
+├── wrangler.toml            # Cloudflare deployment config
+└── hugo-backup/             # Legacy Hugo source, kept for reference
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Content Model
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Posts live in `src/content/posts` and use the `posts` collection defined in `src/content.config.ts`.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Supported frontmatter fields:
 
-## 🧞 Commands
+- `title` (required)
+- `date` (required)
+- `description`
+- `author`
+- `tags`
+- `image`
+- `draft`
+- `archived`
 
-All commands are run from the root of the project, from a terminal:
+Content behavior:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- `draft: true` keeps a post out of public listings and static post generation.
+- `archived: true` keeps a post published, but removes it from the homepage and RSS feed.
+- Tags automatically generate tag pages.
 
-## 👀 Want to learn more?
+## Main Routes
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- `/` shows current, non-draft, non-archived writing.
+- `/archive` shows archived posts.
+- `/projects` highlights selected projects and experiments.
+- `/about` presents background and positioning.
+- `/post/[slug]` renders individual posts.
+- `/tags/[tag]` renders tag archives.
+- `/rss.xml` exposes the RSS feed for current writing.
+
+## Deployment
+
+The site is configured for Cloudflare deployment.
+
+- Canonical site URL is set in `astro.config.mjs`.
+- Worker and static asset settings live in `wrangler.toml`.
+- Build output is written to `dist/`.
+
+If you change layout, content loading, metadata, or deployment configuration, run:
+
+```sh
+pnpm build
+```
+
+Deploy with Wrangler after a successful build and after confirming Cloudflare configuration for the target environment.
+
+## Notes
+
+- `README.md` documents the project for contributors.
+- `AGENTS.md` contains editing and repo-specific guidance for coding agents.
+- `hugo-backup/` is legacy source material and should not be edited unless the task explicitly targets the old Hugo site.
